@@ -64,29 +64,28 @@ h1 {
 }
 
 /* Drop-Down Navigation Bar Styles */
-
 nav {
-    position: absolute;
-    background-color: #ab94ad;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #130d08;
-    display: none;
-    top: 100%;
+  position: absolute;
+  background-color: #ab94ad;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #130d08;
+  display: none;
+  top: 100%;
 }
 
 /* Menu Toggle Styles */
-#menu-toggle:checked~nav {
-    display: block;
+#menu-toggle:checked ~ nav {
+  display: block;
 }
 
 #menu-toggle {
-    display: none;
+  display: none;
 }
 
 .menu-toggle-tag {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 /* Main Content*/
