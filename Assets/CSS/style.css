@@ -1,0 +1,21 @@
+/* Default styles of the browser - overriden */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+  background-color: #AB94AD;
+}
+
+/* Main Content*/
+main {
+  background-color: #D9DCCE;
+}
+
+/* Footer */
+footer {
+  background-color: #957A42;
+}
