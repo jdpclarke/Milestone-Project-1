@@ -1,3 +1,6 @@
+/* Fonts Import from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 /* Default styles of the browser - overriden */
 * {
     padding: 0;
@@ -13,6 +16,7 @@ body {
 
     /* Basic Font Styles */
     color: #130D08;
+    font-family: "Rubrik", sans-serif;
 
 }
 
