@@ -22,8 +22,14 @@ body {
 /* Header */
 header {
   background-color: #ab94ad;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 2px 2px #130D08;
 }
 
+/* Heading 1 Font Styles */
 h1 {
     font-family: "righteous", sans-serif;
 }
