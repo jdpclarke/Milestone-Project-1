@@ -1,38 +1,41 @@
 /* Fonts Import from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 /* Default styles of the browser - overriden */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* Basic Styles */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 
-    /* Basic Font Styles */
-    color: #130D08;
-    font-family: "Rubrik", sans-serif;
-
+  /* Basic Font Styles */
+  color: #130d08;
+  font-family: "Rubrik", sans-serif;
 }
 
 /* Header */
 header {
-  background-color: #AB94AD;
+  background-color: #ab94ad;
+}
+
+h1 {
+    font-family: "righteous", sans-serif;
 }
 
 /* Main Content*/
 main {
-  background-color: #D9DCCE;
+  background-color: #d9dcce;
   /* Main element to use the most space to keep footer at bottom of the page */
   flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
-  background-color: #957A42;
+  background-color: #957a42;
 }
