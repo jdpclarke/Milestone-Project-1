@@ -45,19 +45,31 @@ h1 {
 
 /* Styles Menu Items in the Header */
 #menu {
-    font-size: 120%;
-    letter-spacing: 5px;
-    list-style-type: none;
+  font-size: 120%;
+  letter-spacing: 5px;
+  list-style-type: none;
 }
 
 /* Add spacing style to menu item */
 #menu > li {
-    margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 /* Adds style to the menu items to indicate current page */
 .current {
-    border-bottom: 2px solid #694B7D
+  border-bottom: 2px solid #694b7d;
+}
+
+/* Drop-Down Navigation Bar Styles */
+
+nav {
+    position: absolute;
+    background-color: #ab94ad;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #130d08;
+    display: none;
 }
 
 /* Main Content*/
