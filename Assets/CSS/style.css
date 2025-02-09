@@ -15,18 +15,18 @@ body {
   flex-direction: column;
 
   /* Basic Font Styles */
-  color: #130d08;
+  color: #423e59;
   font-family: "Rubrik", sans-serif;
 }
 
 /* Header */
 header {
-  background-color: #ab94ad;
+  background-color: #b099b1;
   padding: 0 1rem;
   position: fixed;
   z-index: 99;
   width: 100%;
-  box-shadow: 0 2px 2px #130d08;
+  box-shadow: 0 2px 2px #423e59;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -43,7 +43,7 @@ h1 {
   font-family: "righteous", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #4e3330;
+  color: #423e59;
 }
 
 /* Styles Menu Items in the Header */
@@ -60,17 +60,17 @@ h1 {
 
 /* Adds style to the menu items to indicate current page */
 .current {
-  border-bottom: 2px solid #694b7d;
+  border-bottom: 2px solid #423e59;
 }
 
 /* Drop-Down Navigation Bar Styles */
 nav {
   position: absolute;
-  background-color: #ab94ad;
+  background-color: #b099b1;
   width: 100%;
   left: 0;
   padding: 0 1rem;
-  box-shadow: 0 2px 2px #130d08;
+  box-shadow: 0 2px 2px #423e59;
   display: none;
   top: 100%;
 }
@@ -90,7 +90,7 @@ nav {
 
 /* Main Content*/
 main {
-  background-color: #d9dcce;
+  background-color: #e0dbdc;
   /* Main element to use the most space to keep footer at bottom of the page */
   flex: 1 0 auto;
   margin-top: 42px;
@@ -98,5 +98,5 @@ main {
 
 /* Footer */
 footer {
-  background-color: #957a42;
+  background-color: #2eaabb;
 }
