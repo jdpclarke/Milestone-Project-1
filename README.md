@@ -26,6 +26,9 @@
         
         ![Colour palette for this project](https://github.com/jdpclarke/Milestone-Project-1/blob/a2c8f37c5d7a062c29b87db03c4eda8f13876bf4/Assets/README/Colour%20Palette.png)
     -   #### Typography
+        The ["Rubrik"](https://fonts.google.com/specimen/Rubik) font family has been selected as the main font used throughout the whole project with Sans Serif as the fallback font in any case that the font isn't being imported into the project correctly. Rubrik is a classified as a variable font which allow one font file to contain multiple variations. You can change the weight, width, style, optical size, and more. The variables within variable fonts are controlled by axes.
+
+        The ["Righteous"](https://fonts.google.com/specimen/Righteous) font family has been selected as the heading element font. Righteous is classified as a static font and is not as versitile as a variable font, hence why this is used for heading elements only.
     -   #### Imagery
 
 -   ### Wireframes   
@@ -40,3 +43,5 @@
 ## Deployment
 
 ## Credits
+
+## References
