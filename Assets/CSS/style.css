@@ -43,6 +43,23 @@ h1 {
   color: #4e3330;
 }
 
+/* Styles Menu Items in the Header */
+#menu {
+    font-size: 120%;
+    letter-spacing: 5px;
+    list-style-type: none;
+}
+
+/* Add spacing style to menu item */
+#menu > li {
+    margin-bottom: 0.5em;
+}
+
+/* Adds style to the menu items to indicate current page */
+.current {
+    border-bottom: 2px solid #694B7D
+}
+
 /* Main Content*/
 main {
   background-color: #d9dcce;
