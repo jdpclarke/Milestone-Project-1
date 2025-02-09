@@ -5,6 +5,17 @@
     box-sizing: border-box;
 }
 
+/* Basic Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    /* Basic Font Styles */
+    color: #130D08;
+
+}
+
 /* Header */
 header {
   background-color: #AB94AD;
@@ -13,6 +24,8 @@ header {
 /* Main Content*/
 main {
   background-color: #D9DCCE;
+  /* Main element to use the most space to keep footer at bottom of the page */
+  flex: 1 0 auto;
 }
 
 /* Footer */
