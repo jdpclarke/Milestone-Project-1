@@ -26,12 +26,21 @@ header {
   position: fixed;
   z-index: 99;
   width: 100%;
-  box-shadow: 0 2px 2px #130D08;
+  box-shadow: 0 2px 2px #130d08;
+}
+
+/* Header Links - Naturalise style */
+header a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Heading 1 Font Styles */
 h1 {
-    font-family: "righteous", sans-serif;
+  font-family: "righteous", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #4e3330;
 }
 
 /* Main Content*/
