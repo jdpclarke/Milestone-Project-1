@@ -28,12 +28,19 @@
 
 #navbar .logo {
   width: 40px;
-
 }
 
 /* Header */
 #header .lead {
-    font-family: var(--secondary-font);
+  font-family: var(--secondary-font);
+}
+
+/* ESFA Offer */
+
+
+/* Key Information */
+#key-information .card {
+    margin-bottom: 1.5rem;
 }
 
 /* Basic and Universal Styles */
@@ -50,25 +57,33 @@ h4 {
   color: var(--primary-color);
 }
 
+h2 {
+    margin-bottom: 2rem;
+}
+
+.bullets {
+    text-align: left;
+}
+
 .sub-heading {
   font-family: var(--primary-font);
   color: var(--secondary-color);
 }
 
 .section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .inline-link {
-    font-family: var(--primary-font);
-    font-weight: bolder;
-    color: var(--highlight-dark);
-    text-decoration: none;
+  font-family: var(--primary-font);
+  font-weight: bolder;
+  color: var(--highlight-dark);
+  text-decoration: none;
 }
 
 p {
-    text-align: justify;
+  text-align: justify;
 }
 
 /* Main */
