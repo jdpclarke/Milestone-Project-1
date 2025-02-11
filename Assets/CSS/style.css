@@ -21,16 +21,19 @@
     background-color: #e0dbdc;
 }*/
 
-/* Header */
-header {
-    background-color: #b0b2b8;
+/* Navigation Menu */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 40px;
 }
 
 /* Basic Styles */
 body {
   color: var(--primary-color);
   font-family: var(--primary-font);
-  background-color: #e0dbdc;
 }
 
 
@@ -39,6 +42,3 @@ body {
 /* Main */
 
 /* Footer */
-footer {
-  background-color: #2eaabb;
-}
