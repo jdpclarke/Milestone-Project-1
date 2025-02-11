@@ -15,7 +15,12 @@
     -   #### Acceptance Criteria
     -   #### Tasks
 
--   ### Feature 3: Referral to submit a request to assess elgibility
+-   ### Feature 3: Responsive Design and User Friendly Navigation
+    -   #### User Story
+    -   #### Acceptance Criteria
+    -   #### Tasks
+
+-   ### Feature 4: Referral to submit a request to assess elgibility
     -   #### User Story
     -   #### Acceptance Criteria
     -   #### Tasks
