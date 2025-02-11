@@ -3,12 +3,12 @@
 
 /* CSS Variables */
 :root {
-    --primary-font: "Rubrik", sans-serif;
-    --secondary-font: "Righteous", sans-serif;
-    --primary-color: #423e59; /* Gunpowder */
-    --secondary-color: #8997a6; /* Regent Gray */
-    --highlight-dark: #6d4e75; /* Saltbox */
-    --hlighlight-light: #b099b1; /* Amethyst Smoke */
+  --primary-font: "Rubrik", sans-serif;
+  --secondary-font: "Righteous", sans-serif;
+  --primary-color: #423e59; /* Gunpowder */
+  --secondary-color: #8997a6; /* Regent Gray */
+  --highlight-dark: #6d4e75; /* Saltbox */
+  --hlighlight-light: #b099b1; /* Amethyst Smoke */
 }
 
 /*.container,
@@ -23,21 +23,41 @@
 
 /* Navigation Menu */
 #navbar {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 #navbar .logo {
-    width: 40px;
+  width: 40px;
 }
 
-/* Basic Styles */
+/* Header */
+#header .lead {
+    font-family: var(--secondary-font);
+}
+
+/* Basic and Universal Styles */
 body {
   color: var(--primary-color);
   font-family: var(--primary-font);
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+}
 
+.sub-heading {
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+}
 
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 /* Main */
 
