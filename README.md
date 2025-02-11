@@ -4,23 +4,32 @@
 
 ## User Experience (UX)
 
--   ### Feature 1: Introduction to the ESFA Offer and FE Funding Streams
-
+-   ### Feature 1: Responsive Design and User Friendly Navigation (must-have)
     -   #### User Story
     -   #### Acceptance Criteria
     -   #### Tasks
 
--   ### Feature 2: Course Search and Funding Opportunities
+-   ### Feature 2: Clear and Easy to Understand Information (should-have)
     -   #### User Story
     -   #### Acceptance Criteria
     -   #### Tasks
 
--   ### Feature 3: Responsive Design and User Friendly Navigation
+-   ### Feature 3: Engaging Content to Promote Engagement (should-have)
+    -   #### User Story
+    -   #### Acceptance Criteria
+    -   #### Tasks
+    
+-   ### Feature 4: Introduction to the ESFA Offer and FE Funding Streams (must-have)
     -   #### User Story
     -   #### Acceptance Criteria
     -   #### Tasks
 
--   ### Feature 4: Referral to submit a request to assess elgibility
+-   ### Feature 5: Course Search and Funding Opportunities (must-have)
+    -   #### User Story
+    -   #### Acceptance Criteria
+    -   #### Tasks
+
+-   ### Feature 6: Referral to submit a request to assess elgibility (must-have)
     -   #### User Story
     -   #### Acceptance Criteria
     -   #### Tasks
