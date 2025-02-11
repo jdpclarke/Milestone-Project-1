@@ -48,13 +48,63 @@
     <link rel="stylesheet" href="Assets/CSS/style.css" />
   </head>
 
-  <body>
+  <!-- Class on body works in tangent with class on footer to ensure this stays at the bottom of the page-->
+
+  <body class="d-flex flex-column min-vh-100">
+    <!-- Navigation Bar/Menu -->
+    <div></div>
+
     <!-- Header -->
-    <header>
-      <div>
-        Navigation
+    <header class="container">
+      <div class="row">
+        <div class="col-12 col-x1.6">FE Funding 4 Dummies</div>
+        <div class="col-12 col-x1.6">Carousel</div>
       </div>
     </header>
+
+    <!-- Main body of page to hold sections -->
+    <main>
+      <!-- Section 1 -->
+      <section class="container">
+        <div class="row">
+          <div class="col-12">Key Information and Tools</div>
+          <div class="col-12 col-md-6 col-xl-4">Guide</div>
+          <div class="col-12 col-md-6 col-xl-4">Help</div>
+          <div class="col-12 col-md-6 col-xl-4">ESFA 1</div>
+        </div>
+      </section>
+
+      <!-- Section 2 -->
+      <section class="container">
+        <div class="row">
+          <div class="col-12">What is the ESFA?</div>
+          <div class="col-12">ESFA Information</div>
+        </div>
+      </section>
+
+      <!-- Section 3 -->
+      <section class="container">
+        <div class="row">
+          <div class="col-12">Funding Opportunities (Streams)</div>
+          <div class="col-12">FMs</div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <!-- Class added to ensure this remains at the bottom of the page -->
+    <footer class="mt-auto">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">Further Assistance</div>
+          <!-- Information RE logos, links to further info and declaration for copyright/ownership-->
+          <div class="col-12 col-md-6 col-xl-4">
+            Further Sources of Information
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">Notices and Copyright</div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Bootstrap JavaScript -->
     <script
@@ -68,14 +118,5 @@
       src="https://kit.fontawesome.com/aa9af45995.js"
       crossorigin="anonymous"
     ></script>
-
-    <!-- Section 1 -->
-    <section>Section 1</section>
-
-    <!-- Section 1 -->
-    <section>Section 2</section>
-
-    <!-- Footer -->
-    <footer>Footer</footer>
   </body>
 </html>

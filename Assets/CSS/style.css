@@ -11,101 +11,26 @@
     --hlighlight-light: #b099b1; /* Amethyst Smoke */
 }
 
-/* Default styles of the browser - overriden */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
 }
 
 /* Basic Styles */
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-
-
-  /* Basic Font Styles */
   color: var(--primary-color);
   font-family: var(--primary-font);
 }
 
 /* Header */
-header {
-  background-color: #b099b1;
-  padding: 0 1rem;
-  position: fixed;
-  z-index: 99;
-  width: 100%;
-  box-shadow: 0 2px 2px #423e59;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
 
-/* Header Links - Naturalise style */
-header a {
-  text-decoration: none;
-  color: inherit;
-}
 
-/* Heading 1 Font Styles */
-h1 {
-  font-family: var(--secondary-font);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: var(--primary-color);
-}
-
-/* Styles Menu Items in the Header */
-#menu {
-  font-size: 120%;
-  letter-spacing: 5px;
-  list-style-type: none;
-}
-
-/* Add spacing style to menu item */
-#menu > li {
-  margin-bottom: 0.5em;
-}
-
-/* Adds style to the menu items to indicate current page */
-.current {
-  border-bottom: 2px solid #423e59;
-}
-
-/* Drop-Down Navigation Bar Styles */
-nav {
-  position: absolute;
-  background-color: #b099b1;
-  width: 100%;
-  left: 0;
-  padding: 0 1rem;
-  box-shadow: 0 2px 2px #423e59;
-  display: none;
-  top: 100%;
-}
-
-/* Menu Toggle Styles */
-#menu-toggle:checked ~ nav {
-  display: block;
-}
-
-#menu-toggle {
-  display: none;
-}
-
-.menu-toggle-tag {
-  font-size: 2rem;
-}
-
-/* Main Content*/
-main {
-  background-color: #e0dbdc;
-  /* Main element to use the most space to keep footer at bottom of the page */
-  flex: 1 0 auto;
-  margin-top: 42px;
-}
+/* Main */
 
 /* Footer */
 footer {
