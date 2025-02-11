@@ -11,7 +11,7 @@
     --hlighlight-light: #b099b1; /* Amethyst Smoke */
 }
 
-.container,
+/*.container,
 .row {
     border: 2px solid #423e59;
 }
@@ -19,7 +19,7 @@
 .col-12 {
     border: 2px solid white;
     background-color: #e0dbdc;
-}
+}*/
 
 /* Header */
 header {
