@@ -75,6 +75,10 @@ h2 {
   margin-bottom: 2rem;
 }
 
+p {
+  text-align: justify;
+}
+
 .bullets {
   text-align: left;
 }
@@ -99,10 +103,6 @@ h2 {
 
 .inline-link:hover {
   color: var(--highlight-light);
-}
-
-p {
-  text-align: justify;
 }
 
 /* Bootstrap Accordian Styles */
@@ -135,26 +135,57 @@ p {
   background-color: var(--primary-color);
 }
 
+#more-help h4 {
+  margin-bottom: 1rem;
+}
+
+.sm-links {
+  text-align: center;
+}
+
+#more-help i {
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  margin-right: 15px;
+}
+
+#more-help .sm-links i {
+  color: var(--highlight-lighter);
+  font-size: 1.9rem;
+  transition: color 0.3s ease-in-out;
+}
+
+#more-help .sm-links i:hover {
+  color: var(--highlight-dark);
+}
+
+#more-help .footer-column {
+  margin-bottom: 1rem;
+}
+
 #more-help h4,
 #more-help p,
 #more-help address {
   color: var(--highlight-lighter);
+  text-align: center;
 }
 
-#more-help i {
-    color: var(--secondary-color);
-    font-size: 1.2rem;
-    margin-right: 15px;
+.map-container {
+  position: relative;
+  padding-bottom: 50%; /* 16:9 aspect ratio - adjust if needed */
+  height: 0;
+  overflow: hidden;
+  display: flex; /* Enable Flexbox on the container */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 
-#more-help .sm-links i {
-    color: var(--highlight-lighter);
-    font-size: 1.9rem;
-    transition: color 0.3s ease-in-out;
-}
-
-#more-help .sm-links i:hover {
-    color: var(--highlight-dark);
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* Media Queries */
