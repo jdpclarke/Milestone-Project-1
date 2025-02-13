@@ -46,7 +46,7 @@
   margin-bottom: 1.5rem;
 }
 
-/* Funding Streams */
+/* Funding Models */
 
 /* Basic and Universal Styles */
 body {
@@ -102,9 +102,9 @@ p {
 
 .accordion-button:focus {
   /* Style when the accordion is focused */
-  border-color: #ced4da; /* Or any color you prefer */
-  box-shadow: none; /* Removes the blue box shadow */
-  color: #212529; /* Changes text color back to dark */
+  border-color: #ced4da;
+  box-shadow: none;
+  color: #212529;
 }
 
 .accordion-body {
