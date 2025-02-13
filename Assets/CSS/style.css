@@ -9,6 +9,7 @@
   --secondary-color: #8997a6; /* Regent Gray */
   --highlight-dark: #6d4e75; /* Saltbox */
   --hlighlight-light: #b099b1; /* Amethyst Smoke */
+  --accordian-item: #b0b2b8; /* Bombay */
 }
 
 /*.container,
@@ -36,12 +37,16 @@
 }
 
 /* ESFA Offer */
-
+#esfa-offer .lead {
+  font-family: var(--secondary-font);
+}
 
 /* Key Information */
 #key-information .card {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
+
+/* Funding Streams */
 
 /* Basic and Universal Styles */
 body {
@@ -59,11 +64,11 @@ h4 {
 }
 
 h2 {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .bullets {
-    text-align: left;
+  text-align: left;
 }
 
 .sub-heading {
@@ -73,7 +78,7 @@ h2 {
 
 .section {
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .inline-link {
@@ -87,46 +92,64 @@ p {
   text-align: justify;
 }
 
-/* Media Queries */
-
-/* Medium devices (tables, 768px+) */
-@media screen and (min-width: 768px) {
-    /* Styles to assist with making all cards the same height */
-    #key-information .card-body {
-        min-height: 180px;
-    }
+/* Bootstrap Accordian Styles */
+/* Overriden the syles from Boostrap to match color palette */
+.accordion-button:not(.collapsed) {
+  background-color: var(--accordian-item);
+  color: var(--primary-color);
+  box-shadow: none;
 }
 
-/* Large devices (small laptops, 992px+) */
-@media screen and (min-width: 992px) {
-    /* Styles to assist with making all cards the same height */
-    #key-information .card-body {
-        min-height: auto;
-    }
+.accordion-button:focus {
+  /* Style when the accordion is focused */
+  border-color: #ced4da; /* Or any color you prefer */
+  box-shadow: none; /* Removes the blue box shadow */
+  color: #212529; /* Changes text color back to dark */
 }
 
-/* Xl devices (large desktops, 1200px+) */
-@media screen and (min-width: 1200px) {
-    /* Styles to assist with making all cards the same height */
-    #key-information .card-body {
-        min-height: 220px;
-    }
+.accordion-body {
+  text-align: justify;
 }
-
-/* XXl devices (larger desktops, 1400px+) */
-@media screen and (min-width: 1400px) {
-    /* Styles to assist with making all cards the same height */
-    #key-information .card-body {
-        min-height: 195px;
-    }
-}
-
 /* Main */
 
 /* Footer */
 
 footer {
-    color: var(--primary-color);
-    font-family: var(--primary-font);
-    background-color: #2eaabb;
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  background-color: #2eaabb;
+}
+
+/* Media Queries */
+
+/* Medium devices (tables, 768px+) */
+@media screen and (min-width: 768px) {
+  /* Styles to assist with making all cards the same height */
+  #key-information .card-body {
+    min-height: 180px;
   }
+}
+
+/* Large devices (small laptops, 992px+) */
+@media screen and (min-width: 992px) {
+  /* Styles to assist with making all cards the same height */
+  #key-information .card-body {
+    min-height: auto;
+  }
+}
+
+/* Xl devices (large desktops, 1200px+) */
+@media screen and (min-width: 1200px) {
+  /* Styles to assist with making all cards the same height */
+  #key-information .card-body {
+    min-height: 220px;
+  }
+}
+
+/* XXl devices (larger desktops, 1400px+) */
+@media screen and (min-width: 1400px) {
+  /* Styles to assist with making all cards the same height */
+  #key-information .card-body {
+    min-height: 195px;
+  }
+}
