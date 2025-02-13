@@ -29,12 +29,13 @@
 }
 
 #navbar .logo {
-  width: 40px;
+  width: 150px;
 }
 
 #navbar a {
     font-size: 1.2rem;
 }
+
 
 /* Header */
 #header .lead {
