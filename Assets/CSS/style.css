@@ -8,6 +8,7 @@
   --primary-color: #423e59; /* Gunpowder */
   --secondary-color: #8997a6; /* Regent Gray */
   --highlight-dark: #6d4e75; /* Saltbox */
+  --highlight-darker: #cfaf7f; /* Tan */
   --highlight-light: #b099b1; /* Amethyst Smoke */
   --highlight-lighter: #e0dbdc; /* Bonjour */
   --accordian-item: #b0b2b8; /* Bombay */
@@ -43,6 +44,21 @@
 
 /* Key Information */
 #key-information .card {
+  margin-bottom: 1.5rem;
+}
+
+/* ESFA Funded Adult Skills */
+#funded-asf .card {
+  margin-bottom: 3rem;
+}
+
+#funded-asf .card-body div {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Residency and Eligibility */
+#eligibility .card {
   margin-bottom: 1.5rem;
 }
 
@@ -119,10 +135,11 @@ p {
 }
 
 .accordion-image {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .accordion {
+  margin-bottom: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
