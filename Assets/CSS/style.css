@@ -13,16 +13,6 @@
   --accordian-item: #b0b2b8; /* Bombay */
 }
 
-/*.container,
-.row {
-    border: 2px solid #423e59;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: #e0dbdc;
-}*/
-
 /* Navigation Menu */
 #navbar {
   background-color: var(--primary-color);
@@ -33,9 +23,8 @@
 }
 
 #navbar a {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
-
 
 /* Header */
 #header .lead {
@@ -129,6 +118,10 @@ p {
   text-align: justify;
 }
 
+.accordion-image {
+    margin-bottom: 1rem;
+}
+
 .accordion {
   margin-bottom: 1.5rem;
 }
@@ -165,7 +158,7 @@ p {
 }
 
 #more-help .footer-column {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 #more-help h4,
@@ -186,11 +179,11 @@ p {
 }
 
 .map-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* Media Queries */
