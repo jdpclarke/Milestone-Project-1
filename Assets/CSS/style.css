@@ -8,7 +8,8 @@
   --primary-color: #423e59; /* Gunpowder */
   --secondary-color: #8997a6; /* Regent Gray */
   --highlight-dark: #6d4e75; /* Saltbox */
-  --hlighlight-light: #b099b1; /* Amethyst Smoke */
+  --highlight-light: #b099b1; /* Amethyst Smoke */
+  --highlight-lighter: #e0dbdc; /* Bonjour */
   --accordian-item: #b0b2b8; /* Bombay */
 }
 
@@ -55,26 +56,24 @@
 body {
   color: var(--primary-color);
   font-family: var(--primary-font);
-  background-color: #e0dbdc;
+  background-color: var(--highlight-lighter);
 }
 
 h1,
 h2,
-h3{
+h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
 }
 
 h4 {
-    font-family: var(--secondary-font);
-    color: var(--primary-color); 
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
 }
 
 h2 {
   margin-bottom: 2rem;
 }
-
-
 
 .bullets {
   text-align: left;
@@ -95,6 +94,11 @@ h2 {
   font-weight: bolder;
   color: var(--highlight-dark);
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.inline-link:hover {
+  color: var(--highlight-light);
 }
 
 p {
@@ -120,16 +124,38 @@ p {
   text-align: justify;
 }
 
-/* Main */
+.accordion {
+  margin-bottom: 1.5rem;
+}
 
 /* Footer */
 
-footer {
-  color: var(--primary-color);
+#more-help {
   font-family: var(--primary-font);
-  background-color: #2eaabb;
+  background-color: var(--primary-color);
 }
 
+#more-help h4,
+#more-help p,
+#more-help address {
+  color: var(--highlight-lighter);
+}
+
+#more-help i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#more-help .sm-links i {
+    color: var(--highlight-lighter);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+
+#more-help .sm-links i:hover {
+    color: var(--highlight-dark);
+}
 
 /* Media Queries */
 
