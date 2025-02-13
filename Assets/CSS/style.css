@@ -41,12 +41,15 @@
   font-family: var(--secondary-font);
 }
 
+/* Funding Models */
+#funding-models .card {
+  margin-bottom: 1.5rem;
+}
+
 /* Key Information */
 #key-information .card {
   margin-bottom: 1.5rem;
 }
-
-/* Funding Models */
 
 /* Basic and Universal Styles */
 body {
@@ -129,12 +132,18 @@ footer {
   #key-information .card-body {
     min-height: 180px;
   }
+  #funding-models .card-body {
+    min-height: 180px;
+  }
 }
 
 /* Large devices (small laptops, 992px+) */
 @media screen and (min-width: 992px) {
   /* Styles to assist with making all cards the same height */
   #key-information .card-body {
+    min-height: auto;
+  }
+  #funding-models .card-body {
     min-height: auto;
   }
 }
@@ -145,12 +154,18 @@ footer {
   #key-information .card-body {
     min-height: 220px;
   }
+  #funding-models .card-body {
+    min-height: 220px;
+  }
 }
 
 /* XXl devices (larger desktops, 1400px+) */
 @media screen and (min-width: 1400px) {
   /* Styles to assist with making all cards the same height */
   #key-information .card-body {
+    min-height: 195px;
+  }
+  #funding-models .card-body {
     min-height: 195px;
   }
 }
