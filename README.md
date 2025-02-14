@@ -2,6 +2,8 @@
 
 <h3 align="center">FE Funding 4 U (FF4U) is the one-stop place for easy guidance on funding available for adults in the Further Education sector, helping you to get access to a variety of free courses and programmes via the ESFA. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for all prospective users.</h3>
 
+![Example of the website on different screen sizes](https://github.com/jdpclarke/Milestone-Project-1/blob/8e53a35f874546d49c216cc0bc37a687dd57a498/Assets/README/Example%20Screens.png)
+
 ## User Experience (UX)
 
 -   ### Feature 1: Responsive Design and User Friendly Navigation (must-have)
