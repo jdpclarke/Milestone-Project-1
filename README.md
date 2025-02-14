@@ -1,12 +1,16 @@
-# FE Funding 4 U
+# FE Funding 4 U (FF4U) - Milestone Project 1
+
+**A website providing easy guidance on funding available for adults in the Further Education sector in England.**
+
+![Responsive Mockup](https://github.com/jdpclarke/Milestone-Project-1/blob/8e53a35f874546d49c216cc0bc37a687dd57a498/Assets/README/Example%20Screens.png)
+
+## 1. Overview
 
 FE Funding 4 U (FF4U) is a website designed to simplify the often-complex process of finding funding for Further Education courses in England. It targets adults who are considering returning to education or upskilling but are unsure about the financial support available. The site provides clear information about the Education and Skills Funding Agency (ESFA), the Adult Skills Fund (ASF), various funding models (fully funded, co-funded, loans), and links to key resources. The goal is to empower users to explore their funding options and confidently embark on their learning journey.
 
 This project focuses on creating a responsive and user-friendly website with a clear information architecture. It addresses accessibility considerations and follows best practices for web development.
 
-![Responsive Mockup](https://github.com/jdpclarke/Milestone-Project-1/blob/8e53a35f874546d49c216cc0bc37a687dd57a498/Assets/README/Example%20Screens.png)
-
-## User Experience (UX)
+## 2. User Stories
 
 - ### Feature 1: Responsive Design and User Friendly Navigation (must-have)
 
@@ -60,14 +64,18 @@ This project focuses on creating a responsive and user-friendly website with a c
 
 - ### Wireframes
 
-## Features
+## 3. Features
 
-## Technologies Used
+## 4. Technology Used
 
-## Testing
+## 5. Installation
 
-## Deployment
+## 6. Usage
 
-## Credits
+## 7. Testing
 
-## References
+## 8. Deployment
+
+## 9. Credits
+
+## 10. Future Improvements
