@@ -132,6 +132,8 @@ p {
   margin-bottom: 3rem;
 }
 
+/* Styles for links and to make them reactive */
+
 .inline-link {
   font-family: var(--primary-font);
   font-weight: bolder;
@@ -143,6 +145,8 @@ p {
 .inline-link:hover {
   color: var(--highlight-light);
 }
+
+
 
 /* Bootstrap Accordian Styles */
 /* Overriden the syles from Boostrap to match color palette */
