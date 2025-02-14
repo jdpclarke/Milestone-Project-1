@@ -14,7 +14,7 @@ This project focuses on creating a responsive and user-friendly website with a c
 
 ### User Stories
 
-**Feature 1: Easy Navigation and Understanding**
+#### Feature 1: Easy Navigation and Understanding
 
 - **As a user,** I want the website to be easy to navigate and understand, even if I'm not familiar with funding terminology. I want clear explanations of acronyms and jargon.
 
@@ -30,7 +30,7 @@ This project focuses on creating a responsive and user-friendly website with a c
     - Review all content for clarity and conciseness.
     - Conduct usability testing to ensure ease of navigation.
 
-**Feature 2: Mobile Responsiveness**
+#### Feature 2: Mobile Responsiveness
 
 - **As a user on a mobile device,** I want the website to be responsive and display correctly on my smaller screen, ensuring a seamless experience.
 
@@ -45,7 +45,7 @@ This project focuses on creating a responsive and user-friendly website with a c
     - Test the website on various mobile devices and screen sizes.
     - Ensure touch screen compatibility.
 
-**Feature 3: Information about ESFA**
+#### Feature 3: Information about ESFA
 
 - **As a potential student,** I want to easily find information about the ESFA and its role in funding adult education so that I can understand the overall funding landscape.
 
@@ -63,7 +63,7 @@ This project focuses on creating a responsive and user-friendly website with a c
     - Style the section using CSS.
     - Add links to the official ESFA website.
 
-**Feature 4: Understanding Funding Models**
+#### Feature 4: Understanding Funding Models
 
 - **As an adult learner,** I want to understand the different funding models available (fully funded, co-funded, Advanced Learner Loan) so that I can assess which options are most relevant to my circumstances.
 
@@ -81,7 +81,7 @@ This project focuses on creating a responsive and user-friendly website with a c
     - Add examples to illustrate each model.
     - Style the funding model sections.
 
-**Feature 5: Exploring Career Paths and Funding**
+#### Feature 5: Exploring Career Paths and Funding
 
 - **As someone considering a career change,** I want to explore potential career paths and see what funding opportunities are available for relevant courses so that I can plan my next steps.
 
@@ -99,7 +99,7 @@ This project focuses on creating a responsive and user-friendly website with a c
     - Explain how to find funded courses related to career changes.
     - Style the career change section.
 
-**Feature 6: Clear Website Introduction**
+#### Feature 6: Clear Website Introduction
 
 - **As a first-time visitor,** I want a clear explanation of what the website offers so I can quickly understand if it's relevant to me.
 
@@ -115,7 +115,7 @@ This project focuses on creating a responsive and user-friendly website with a c
     - Design the layout of the homepage introduction section.
     - Choose appropriate visuals (images, icons) to accompany the introduction.
 
-**Feature 7: Eligibility Assessment Referral via Help Page Form**
+#### Feature 7: Eligibility Assessment Referral via Help Page Form
 
 - **As a user who is unsure about my eligibility and seeking assistance,** I want to be able to submit a request for an eligibility assessment via a form on the help page so I can get personalised advice and understand my funding options.
 
@@ -164,9 +164,46 @@ This website utilises a variety of images to enhance the user experience and con
 
 All images used on the website are optimised for web performance to ensure fast loading times and a smooth user experience. Alternative text (alt text) is provided for all images to ensure accessibility for users with visual impairments and to improve SEO. The alt text descriptions are concise and descriptive, accurately conveying the content and purpose of each image. For example, the carousel images have descriptive alt text explaining the message conveyed in each image. Similarly, the images in the accordion and card sections have alt text that describes the subject of the image.
 
-- ### Wireframes
+### Wireframes
 
 ## 3. Features
+
+- **Homepage with Clear Introduction:**
+  - A concise and informative introduction explaining the purpose of the website and the benefits of using it.
+  - A visually appealing design with a clear call to action, encouraging users to explore funding options.
+  - A carousel showcasing key funding information and highlighting different opportunities available through the ESFA.  Each carousel item includes descriptive alt text for accessibility.
+
+- **Detailed Explanations of Funding Models:**
+  - Dedicated sections explaining each funding model:
+    - **Fully Funded:**  Describes courses where the ESFA covers 100% of the cost, outlining eligibility criteria and examples of relevant courses (e.g., English and Maths, Free Courses for Jobs, Skills Bootcamps).
+    - **Co-Funded:** Explains situations where the ESFA covers a portion of the cost, with the learner contributing the remainder.  Provides clarity on how co-funding works and where it might apply.
+    - **Advanced Learner Loan:**  Details this loan option for higher-level qualifications (Level 3 and above), explaining the borrowing process and repayment terms.  Clarifies that while not strictly part of the Adult Skills Fund (ASF), it's a key funding avenue for adult learners.
+  - Use of accordion elements to present detailed information in a collapsible and user-friendly format, improving readability and navigation.
+
+- **Links to Relevant Government Websites and Resources:**
+  - Clearly labelled links to:
+    - **ESFA Website:**  Direct link to the official ESFA website for comprehensive information on funding rules and policies.
+    - **National Careers Service:** Link to the NCS website for career exploration, course searching, and skills development resources.
+    - **Find a Learning Aim:** Link to the government service for finding course funding information.
+  - Links open in new tabs to ensure users remain on the FF4U website while accessing external resources.
+  - Concise descriptions provided for each link, explaining the type of information users can find on the linked website.
+
+- **Responsive Design:**
+  - Website layout adapts seamlessly to various screen sizes and orientations (desktops, laptops, tablets, and mobile phones).
+  - Navigation menu is accessible and functional on all devices, ensuring ease of use.
+  - Images resize appropriately to maintain visual quality and optimize loading times on different devices.
+
+- **Accessible Design:**
+  - Semantic HTML structure used to improve website structure and accessibility.
+  - Descriptive alt text provided for all images to convey their meaning to screen reader users.
+  - Full keyboard navigation support, allowing users to navigate the website without a mouse.
+  - Sufficient colour contrast maintained to meet accessibility requirements.
+
+- **Footer with Contact Information and Social Media Links:**
+  - Contact information provided, including phone number, email address, and physical address.
+  - Links to social media profiles (Instagram, Facebook, Twitter/X) to connect with the FF4U community.
+  - Disclaimer and copyright information clearly stated to protect intellectual property and inform users about the limitations of the information provided.
+  - Embedded Google Maps location to help users find the physical address.
 
 ## 4. Technology Used
 
