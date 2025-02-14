@@ -82,6 +82,31 @@
   font-weight: bold;
 }
 
+/* Form-Success Page */
+#form-success p {
+  color: var(--primary-color);
+  margin-top: 2rem;
+  text-align: center;
+}
+
+
+#back-to-home{
+  color: var(--highlight-lighter);
+  font-family: var(--primary-font);
+  background-color: var(--highlight-dark);
+  border-color: var(--highlight-darker);
+  border-width: 4px;
+  margin-top: 2rem;
+  transition: color 0.3s ease-in-out;
+}
+
+#back-to-home:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color)
+}
+
+
+
 /* Basic and Universal Styles */
 body {
   color: var(--primary-color);
