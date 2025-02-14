@@ -170,13 +170,13 @@
                 </div>
                 <div class="col-12 col-lg-6 mb-3">
                   <label for="surname" class="form-label">Surname*</label>
-                  <select
+                  <input
                     class="form-control"
                     id="surname"
                     name="surname"
                     type="text"
                     required
-                  ></select>
+                  ></input>
                 </div>
                 <div class="col-12 col-lg-6 mb-3">
                   <label for="email" class="form-label">Email*</label>
@@ -199,10 +199,74 @@
                   />
                 </div>
                 <div class="col-12 mb-3">
+                  <label for="earnings" class="form-label"
+                    >Current Annual Income*</label
+                  >
+                  <select
+                    id="earnings"
+                    class="form-select"
+                    name="earnings"
+                    required
+                  >
+                    <option value="" selected>Select suitable option</option>
+                    <option value="under-25000">
+                      Earning below £25,000 per year
+                    </option>
+                    <option value="25000-or-over">
+                      Earning £25,000 or more per year
+                    </option>
+                    <option value="prefer-not-to-say">Prefer not to say</option>
+                  </select>
+                </div>
+                <div class="col-12 mb-3">
+                  <label for="employment" class="form-label"
+                    >Current Employment Status*</label
+                  >
+                  <select
+                    id="employment"
+                    class="form-select"
+                    name="employment"
+                    required
+                  >
+                    <option value="" selected>Select suitable option</option>
+                    <option value="jsa">
+                      Receiving Jobseeker's Allowance (JSA)
+                    </option>
+                    <option value="jsa-ni">
+                      Receiving JSA (National Insurance credits only)
+                    </option>
+                    <option value="esa">
+                      Receiving Employment and Support Allowance (ESA)
+                    </option>
+                    <option value="uc-low-single">
+                      Receiving Universal Credit (UC) - Take-home pay less than
+                      £892/month (Single Claim)
+                    </option>
+                    <option value="uc-low-joint">
+                      Receiving Universal Credit (UC) - Take-home pay less than
+                      £1437/month (Joint Claim)
+                    </option>
+                    <option value="released-on-licence">
+                      Released on Temporary Licence (Studying Outside Prison)
+                    </option>
+                    <option value="other-benefits-low-single">
+                      Receiving Other State Benefits - Take-home pay less than
+                      £892/month (Single Claim)
+                    </option>
+                    <option value="other-benefits-low-joint">
+                      Receiving Other State Benefits - Take-home pay less than
+                      £1437/month (Joint Claim)
+                    </option>
+                    <option value="unemployed-seeking-work">
+                      Unemployed and Seeking Work (No Benefits)
+                    </option>
+                  </select>
+                </div>
+                <div class="col-12 mb-3">
                   <label for="message" class="form-label">Message*</label>
                   <textarea
                     class="form-control"
-                    rows="6"
+                    rows="10"
                     id="message"
                     name="message"
                     required
@@ -210,7 +274,11 @@
                 </div>
               </div>
 
-              <button id="request-assessment" type="submit" class="btn btn-primary">
+              <button
+                id="request-assessment"
+                type="submit"
+                class="btn btn-primary"
+              >
                 Request Assessment
               </button>
             </form>
