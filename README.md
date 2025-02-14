@@ -10,7 +10,9 @@ FE Funding 4 U (FF4U) is a website designed to simplify the often-complex proces
 
 This project focuses on creating a responsive and user-friendly website with a clear information architecture. It addresses accessibility considerations and follows best practices for web development.
 
-## 2. User Stories
+## 2. User Experience
+
+### User Stories
 
 **Feature 1: Easy Navigation and Understanding**
 
@@ -134,7 +136,7 @@ This project focuses on creating a responsive and user-friendly website with a c
     - Ensure the form and help page content are accessible according to WCAG guidelines (e.g., proper labelling, keyboard navigation, screen reader compatibility).
     - Thoroughly test the form submission process, including validation and confirmation.
 
-- ### Design
+### Design
 
   - **Colour Scheme**
 
