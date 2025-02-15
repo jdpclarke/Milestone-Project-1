@@ -366,4 +366,46 @@ To download a local copy of this repository to your computer, follow these steps
 
 ## 9. Credits
 
+This project, FE Funding 4 U (FF4U), was developed using a combination of publicly available resources, open-source libraries, and original content. Here is a more detailed breakdown of the credits:
+
+**Content and Information:**
+
+- **Education and Skills Funding Agency (ESFA):** The core informational content regarding Further Education funding, eligibility criteria, and available courses was derived from the official ESFA website and related UK government publications. This ensured the accuracy and relevance of the information presented.
+- **National Careers Service:** Information regarding career pathways, skills development, and guidance on further education options was referenced from the National Careers Service website.
+- **UK Government Publications:** Relevant government publications and reports related to adult education and skills funding were consulted to provide a comprehensive overview of the funding landscape.
+
+**Technologies and Libraries:**
+
+- **HTML5:** The semantic structure of the website was built using HTML5, ensuring accessibility and search engine optimization.
+- **CSS3:** Custom styles and layouts were implemented using CSS3, including the creation of responsive designs for various screen sizes.
+- **JavaScript:** Primarily used to enhance user interactivity through the integration of Bootstrap's JavaScript components.
+- **Bootstrap 5:** The Bootstrap 5 framework was used to create a responsive and consistent user interface. This included utilizing Bootstrap's grid system, pre-built components (navigation bars, cards, accordions), and utility classes.
+- **Font Awesome:** A library of icons was used to enhance the visual appeal and user experience of the website. These icons were integrated to represent different sections and concepts.
+- **Google Maps API (Embedded):** The Google Maps API was used to embed an interactive map of the organization's location within the footer, improving user experience by providing visual location information.
+- **YouTube (Embedded):** Informational videos were embedded using YouTube's iframe API, providing users with supplementary visual content.
+
+**Code and Assets:**
+
+- **Bootstrap 5 Documentation:** The Bootstrap 5 documentation was extensively referenced for code examples, component usage, and responsive design guidelines.
+- **Favicon Generation:** Favicon images were generated using online favicon generators, ensuring compatibility across different browsers and devices.
+- **Custom CSS:** The `style.css` file contains custom CSS rules written by the developer to enhance and tailor the website's appearance beyond the default Bootstrap styles.
+
+**Acknowledgements:**
+
+- **Open-Source Community:** The developer acknowledges the contributions of the open-source community for providing the tools, libraries, and resources used in this project.
+- **Code Institute:** The developer acknowledges the support and guidance provided by Code Institute throughout the project's development.
+- **Feedback Providers:** The developer expresses gratitude to anyone who provides feedback, testing, or suggestions for improvement on this project.
+
+**Media:**
+
+- **Image Sourcing and Editing:** All images used within this project were sourced from royalty-free image websites, or created by the developer, and edited to ensure optimal web performance.
+- **YouTube Video Content:** Embedded YouTube videos are subject to the terms of service and copyright policies of YouTube and their respective content creators.
+
+**Third-Party Resources:**
+
+- **Bootstrap 5:** [https://getbootstrap.com/](https://getbootstrap.com/)
+- **Font Awesome:** [https://fontawesome.com/](https://fontawesome.com/)
+- **Google Maps Platform:** [https://developers.google.com/maps](https://www.google.com/url?sa=E&source=gmail&q=https://developers.google.com/maps)
+- **YouTube API (Embed):** [https://developers.google.com/youtube/iframe\_api\_reference](https://www.google.com/url?sa=E&source=gmail&q=https://developers.google.com/youtube/iframe_api_reference)
+
 ## 10. Future Improvements
