@@ -264,6 +264,64 @@ To view and run the FE Funding 4 U (FF4U) website locally, follow these steps:
 
 ## 6. Usage
 
+The FE Funding 4 U (FF4U) website is designed to be intuitive and user-friendly, allowing individuals to easily access information about Further Education funding options and receive personalised guidance. Here's a guide to using the website:
+
+**1. Navigation:**
+
+- **Navigation Bar:** The navigation bar at the top of the page provides links to the key sections of the website:
+  - **Home:** Returns you to the homepage, where you can find key information and tools.
+  - **Your Guide:** Provides detailed information about funding models and eligibility.
+  - **Help:** Offers an eligibility assessment form and additional support.
+  - **Contact Us:** Provides contact information and a map to the organisation.
+- **Responsive Design:** The navigation bar adapts to different screen sizes, ensuring easy access on mobile devices and tablets.
+
+**2. Exploring Funding Information:**
+
+- **Homepage:** The homepage provides a general overview of FE funding and highlights key opportunities, including links to key information and tools.
+- **Your Guide Page:** This page offers in-depth explanations of various funding models, including:
+  - **ESFA Funded Adult Skills:** Information on fully funded courses and eligibility.
+  - **Eligibility and Residency:** Details on earnings thresholds, employment status, and residency requirements.
+- **Accordion Components:** Detailed information is presented in collapsible accordion components, allowing you to focus on specific areas of interest. Click on the accordion headers to expand or collapse the content.
+- **Card Components:** Key information is presented within card components, providing a concise and visually appealing format.
+
+**3. Eligibility Assessment:**
+
+- **Help Page:** If you're still unsure about your eligibility, the Help page features an eligibility assessment form.
+- **Form Submission:** Fill out the required fields, including your name, contact information, interested course, current annual income, and employment status.
+- **Message Field:** Use the message field to provide any additional information or specific questions.
+- **Important Note:** The website and its assessment tool are not a substitute for professional advice. The assessment is for informational purposes only and does not constitute a guarantee of funding. For personalised advice, speak with a certified training provider or careers advisor.
+- **View Key Information:** The help page also provides a link back to the key information and tools on the home page.
+
+**4. Accessing External Resources:**
+
+- **Links to Government Websites:** The website provides links to relevant government websites, such as the ESFA website and the National Careers Service. These links open in new tabs, allowing you to easily access external resources without leaving the FF4U website.
+
+**5. Contacting the Organisation:**
+
+- **Contact Us Page/Footer:** Contact information, including phone number, email address, and physical address, is provided in the website footer and the Contact Us page.
+- **Google Maps:** An embedded Google Map is included in the footer to help you locate the organisation's physical address.
+- **Social Media Links:** Links to social media accounts are also included in the footer.
+
+**6. Accessibility Features:**
+
+- **Alt Text:** All images include descriptive `alt` text for screen reader users.
+- **Keyboard Navigation:** The website is designed to be fully navigable using a keyboard.
+- **Sufficient Colour Contrast:** Colour contrast meets accessibility guidelines, ensuring readability for users with visual impairments.
+
+**7. Interacting with Embedded Content:**
+
+- **YouTube Video:** The "Your Guide" page includes an embedded YouTube video. Click the play button to watch the video for additional information.
+- **Google Maps:** Interact with the embedded Google Map to explore the organisation's location.
+
+**8. General Usage Tips:**
+
+- **Read Carefully:** Pay close attention to the eligibility criteria and funding requirements for each course.
+- **Contact for Advice:** If you have any questions or require personalised advice, contact the organisation using the provided contact information.
+- **Stay Updated:** Funding rules and opportunities may change, so check the website regularly for updates.
+- **Disclaimer:** Be aware of the disclaimer regarding the accuracy of information, and always seek professional advice.
+
+By following these guidelines, you can effectively use the FE Funding 4 U website to explore and understand FE funding options and determine your eligibility.
+
 ## 7. Testing
 
 ## 8. Deployment
