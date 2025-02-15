@@ -166,10 +166,10 @@ All images used on the website are optimised for web performance to ensure fast 
 
 ### Wireframes
 
-- [Home Page Wireframe](link-to-your-home-page-wireframe.png)
-- [Your Guide Page Wireframe](link-to-your-about-page-wireframe.png)
-- [Help Page Wireframe](link-to-your-contact-page-wireframe.png)
-- [Form Success Page Wireframe](link-to-your-contact-page-wireframe.png)
+- [Home Page Wireframe](https://github.com/jdpclarke/Milestone-Project-1/blob/de28f98c3308f85c8a001774322d94c57b7853c2/Assets/README/wireframe-home.png)
+- [Your Guide Page Wireframe](https://github.com/jdpclarke/Milestone-Project-1/blob/de28f98c3308f85c8a001774322d94c57b7853c2/Assets/README/wireframe-your-guide.png)
+- [Help Page Wireframe](https://github.com/jdpclarke/Milestone-Project-1/blob/de28f98c3308f85c8a001774322d94c57b7853c2/Assets/README/wireframe-help.png)
+- [Form Success Page Wireframe](https://github.com/jdpclarke/Milestone-Project-1/blob/de28f98c3308f85c8a001774322d94c57b7853c2/Assets/README/wireframe-form-success.png)
 
 ## 3. Features
 
