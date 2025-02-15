@@ -227,6 +227,41 @@ This project, FE Funding 4 U (FF4U), was built using a combination of front-end 
 
 ## 5. Installation
 
+To view and run the FE Funding 4 U (FF4U) website locally, follow these steps:
+
+1. **Clone the Repository:**
+    - Open your terminal or command prompt.
+    - Navigate to the directory where you want to store the project.
+    - Execute the following command:
+
+        ```bash
+        git clone [https://github.com/jdpclarke/Milestone-Project-1.git](https://github.com/jdpclarke/Milestone-Project-1.git)
+        ```
+
+2. **Navigate to the Project Directory:**
+    - Use the `cd` (change directory) command to enter the cloned project folder:
+
+        ```bash
+        cd Milestone-Project-1
+        ```
+
+3. **Open `index.html` in Your Web Browser:**
+    - Locate the `index.html` file within the project directory.
+    - Double-click the `index.html` file to open it in your default web browser.
+    - Alternatively, you can right-click the file and select "Open with" followed by your preferred web browser (Chrome, Firefox, Safari, Edge, etc.).
+
+4. **View the Website:**
+    - The FE Funding 4 U website should now be displayed in your browser.
+    - You can navigate through the different pages and sections of the website.
+
+**Note:**
+
+- This project is a static website, meaning it does not require a web server to run locally. You can simply open the HTML files directly in your browser.
+- Ensure you have a modern web browser installed on your computer to view the website correctly.
+- If you wish to make changes to the code, you can use a text editor or code editor (e.g., VS Code) to edit the HTML, CSS, and JavaScript files.
+- If you have made changes to the website, simply save the files and refresh your browser to view the updated content.
+- If you have not got git installed you can also download the zip file of the repository, and extract it to your chosen location.
+
 ## 6. Usage
 
 ## 7. Testing
