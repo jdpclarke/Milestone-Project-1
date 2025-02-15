@@ -146,8 +146,6 @@ p {
   color: var(--highlight-light);
 }
 
-
-
 /* Bootstrap Accordian Styles */
 /* Overriden the syles from Boostrap to match color palette */
 .accordion-button:not(.collapsed) {
@@ -240,7 +238,34 @@ p {
   height: 100%;
 }
 
+/* Video Containers */
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 30%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-wrapper iframe.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* Media Queries */
+
+/* Medium devices (tables, 768px+) */
+@media screen and (min-width: 320px) {
+  /* Styles to assist with making all cards the same height */
+  .video-wrapper {
+    padding-bottom: 60%;
+    height: auto; 
+  }
+}
 
 /* Medium devices (tables, 768px+) */
 @media screen and (min-width: 768px) {
@@ -250,6 +275,10 @@ p {
   }
   #funding-models .card-body {
     min-height: 180px;
+  }
+  .video-wrapper {
+    padding-bottom: 60%;
+    height: auto; 
   }
 }
 
@@ -262,6 +291,10 @@ p {
   #funding-models .card-body {
     min-height: auto;
   }
+  .video-wrapper {
+    padding-bottom: 60%;
+    height: auto; 
+  }
 }
 
 /* Xl devices (large desktops, 1200px+) */
@@ -273,6 +306,10 @@ p {
   #funding-models .card-body {
     min-height: 220px;
   }
+  .video-wrapper {
+    padding-bottom: 30%;
+    height: auto; 
+  }
 }
 
 /* XXl devices (larger desktops, 1400px+) */
@@ -283,5 +320,9 @@ p {
   }
   #funding-models .card-body {
     min-height: 195px;
+  }
+  .video-wrapper {
+    padding-bottom: 30%;
+    height: auto; 
   }
 }
