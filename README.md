@@ -2,7 +2,7 @@
 
 **A website providing easy guidance on funding available for adults in the Further Education sector in England.**
 
-![Responsive Mockup](https://github.com/jdpclarke/Milestone-Project-1/blob/8e53a35f874546d49c216cc0bc37a687dd57a498/Assets/README/Example%20Screens.png)
+![Responsive Mockup](https://github.com/jdpclarke/Milestone-Project-1/blob/8e53a35f874546d49c216cc0bc37a687dd57a498/Assets/README/mockup.png)
 
 ## 1. Overview
 
