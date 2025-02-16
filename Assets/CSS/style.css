@@ -15,7 +15,7 @@
 }
 
 /* Button Styles */
-
+/* Styles the buttons to match the design of the website and applies a hover interaction */
 .ff4u-button {
   color: var(--primary-color);
   font-family: var(--primary-font);
@@ -26,72 +26,103 @@
   transition: color 0.3s ease-in-out;
 }
 
+/* Hover interaction */
 .ff4u-button:hover {
   background-color: var(--highlight-dark);
   color: var(--highlight-lighter);
 }
 
 /* Navigation Menu */
+/* Various styles to be used as part of the nav menu */
 #navbar {
   background-color: var(--primary-color);
-
 }
 
+/* Manages the logo size on the nav menu */
 #navbar .logo {
   width: 150px;
 }
 
+/* Manages the font size of the text on the nav menu */
 #navbar a {
   font-size: 1.2rem;
 }
 
 /* Header */
+/* Applies secondary font to all elements in the header with the lead class */
 #header .lead {
   font-family: var(--secondary-font);
 }
 
 /* ESFA Offer */
+/* Applies secondary font to all elements in the esfa-offer section with the lead class */
 #esfa-offer .lead {
   font-family: var(--secondary-font);
 }
 
 /* Funding Models */
+/* Applies a margin to the bottom of all cards in the funding-models section */
 #funding-models .card {
   margin-bottom: 1.5rem;
 }
 
 /* Key Information */
+/* Applies a margin to the bottom of all cards in the key-information section */
 #key-information .card {
   margin-bottom: 1.5rem;
 }
 
+/* Your Guide Header */
+/* Styles to keep videos contained to its container and sized correctly */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 30%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-wrapper iframe.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* ESFA Funded Adult Skills */
+/* Applies a margin to the bottom of all cards in the funded-asf section */
 #funded-asf .card {
   margin-bottom: 3rem;
 }
 
+/* Applies an additional margin to the sides of all card bodies in the funded-asf section */
 #funded-asf .card-body div {
   margin-left: 10%;
   margin-right: 10%;
 }
 
 /* Residency and Eligibility */
+/* Applies a margin to the bottom of all cards in the eligibility section */
 #eligibility .card {
   margin-bottom: 1.5rem;
 }
 
+/* Help */
+/* Applies a bold font-weight to the assessment form section */
 #assessment-form {
   font-weight: bold;
 }
 
 /* Form-Success Page */
+/* Applies colour, margin and center alignment to the paragraph elements on the form-success page */
 #form-success p {
   color: var(--primary-color);
   margin-top: 2rem;
   text-align: center;
 }
 
-/* Basic and Universal Styles */
+/* Basic and Universal Styles across all pages*/
 body {
   color: var(--primary-color);
   font-family: var(--primary-font);
@@ -135,7 +166,6 @@ p {
 }
 
 /* Styles for links and to make them reactive */
-
 .inline-link {
   font-family: var(--primary-font);
   font-weight: bolder;
@@ -180,8 +210,7 @@ p {
   margin-bottom: 2rem;
 }
 
-/* Footer */
-
+/* Footer for all pages */
 #more-help {
   font-family: var(--primary-font);
   background-color: var(--primary-color);
@@ -191,6 +220,7 @@ p {
   margin-bottom: 1rem;
 }
 
+/* Social Media Icons in footer */
 .sm-links {
   text-align: center;
 }
@@ -211,6 +241,7 @@ p {
   color: var(--highlight-dark);
 }
 
+/* Adds a margin to the bottom of all columns in the footer */
 #more-help .footer-column {
   margin-bottom: 2rem;
 }
@@ -222,6 +253,7 @@ p {
   text-align: center;
 }
 
+/* Styles to keep the map contained to its container and sized correctly */
 .map-container {
   position: relative;
   padding-bottom: 50%; /* 16:9 aspect ratio - adjust if needed */
@@ -240,29 +272,10 @@ p {
   height: 100%;
 }
 
-/* Video Containers */
-
-.video-wrapper {
-  position: relative;
-  padding-bottom: 30%;
-  height: 0;
-  overflow: hidden;
-}
-
-.video-wrapper iframe.video-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 /* Media Queries */
-
 /* Medium devices (tables, 768px+) */
 @media screen and (min-width: 320px) {
-  /* Styles to assist with making all cards the same height */
+  /* Styles to assist with making videos a reasonable size for the device */
   .video-wrapper {
     padding-bottom: 60%;
     height: auto;
@@ -278,6 +291,7 @@ p {
   #funding-models .card-body {
     min-height: 180px;
   }
+  /* Styles to assist with making videos a reasonable size for the device */
   .video-wrapper {
     padding-bottom: 60%;
     height: auto;
@@ -293,6 +307,7 @@ p {
   #funding-models .card-body {
     min-height: auto;
   }
+  /* Styles to assist with making videos a reasonable size for the device */
   .video-wrapper {
     padding-bottom: 60%;
     height: auto;
@@ -308,6 +323,7 @@ p {
   #funding-models .card-body {
     min-height: 220px;
   }
+  /* Styles to assist with making videos a reasonable size for the device */
   .video-wrapper {
     padding-bottom: 30%;
     height: auto;
@@ -323,6 +339,7 @@ p {
   #funding-models .card-body {
     min-height: 195px;
   }
+  /* Styles to assist with making videos a reasonable size for the device */
   .video-wrapper {
     padding-bottom: 30%;
     height: auto;
