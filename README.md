@@ -343,7 +343,17 @@ By following these guidelines, you can effectively use the FE Funding 4 U websit
 **2. Automated Testing:**
 
 - **HTML and CSS Validation (W3C):**
-  - "The website's HTML and CSS were validated using the W3C Markup Validation Service and the W3C CSS Validation Service, respectively. This ensured that the code adhered to web standards and was free from syntax errors. Any identified errors were corrected to improve the site's overall quality and consistency."
+  The website's HTML was validated using the [W3C Markup Validation Service](https://validator.w3.org/). The results for the main page can be found here: [Link to your index.html W3C result]. The website's CSS was validated using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+  
+  The results for each page can be found below:
+  - [Home Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjdpclarke.github.io%2FMilestone-Project-1%2Findex.html)
+  - [Your Guide Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjdpclarke.github.io%2FMilestone-Project-1%2Fguide.html)
+  - [Help Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjdpclarke.github.io%2FMilestone-Project-1%2Fhelp.html)
+  - [Form Success Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjdpclarke.github.io%2FMilestone-Project-1%2Fform-success.html)
+  - [Website CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjdpclarke.github.io%2FMilestone-Project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+  This ensured that the code adhered to web standards and was free from syntax errors. Any identified errors were corrected to improve the site's overall quality and consistency.
+
 - **Performance, Best Practices, and SEO Testing (Lighthouse):**
   - "Lighthouse, within the Chrome Developer Tools, was used to evaluate the website's performance, best practices, and SEO. This testing provided insights into areas for optimization, such as image compression and page load speed. The results of the Lighthouse testing were used to make targeted improvements to the site's performance and search engine visibility."
 
