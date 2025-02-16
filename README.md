@@ -405,7 +405,7 @@ The FE Funding 4 U website was thoroughly tested across a variety of browsers an
   - **Explanation:** This screenshot shows the completed eligibility assessment form, demonstrating that users can utilize this feature to assess their potential eligibility for funding, directly addressing the user's goal.
 
 - **Mobile Responsiveness:**
-  Screenshot showing the website on [iPhone 12](Assets/README/usf-screenshot-4-1.png) | [iPad Mini](Assets/README/usf-screenshot-4-2.png)
+  Screenshots showing the website on [iPhone 12](Assets/README/usf-screenshot-4-1.png) | [iPad Mini](Assets/README/usf-screenshot-4-2.png)
   - **User Story Fulfilled:** "As a user, I want the website to be accessible on different devices."
   - **Explanation:** These screenshots illustrate the website's responsiveness across various mobile devices, confirming that users can access and use the website effectively on different screen sizes, fulfilling the accessibility user story.
 
@@ -418,6 +418,16 @@ The FE Funding 4 U website was thoroughly tested across a variety of browsers an
   [Screenshot showing keyboard focus on a navigation link](Assets/README/usf-screenshot-6.png)
   - **User Story Fulfilled:** "As a user, I want the website to be accessible on different devices."
   - **Explanation:** This screenshot demonstrates that the website is navigable using keyboard controls, ensuring accessibility for users who rely on keyboard input, contributing to the broader accessibility user story.
+
+- **Intuitive Navigation and Consistent Layout:**
+  [Screenshot showing navigation menu and section headers](Assets/README/usf-screenshot-7.png)
+  - **User Story Fulfilled:** "I want the website to be easy to navigate and understand, even if I'm not familiar with funding terminology"
+  - **Explination:** This screenshot displays the clear and intuitive navigation menu as well as the concise section headers that provide a consistent layout to the website for those that aren't familiar with FE Funding. This also provides a means of quickly navigating the website via clear indicators for return users."
+
+- **Clear Explinations of Funding Models:**
+  [Screenshot showing the Funding Models and Key Information Sections](Assets/README/usf-screenshot-8.png)
+  - **User Story Fulfilled:** "As an adult learner, I want to understand the different funding models available (fully funded, co-funded, Advanced Learner Loan) so that I can assess which options are most relevant to my circumstances."
+  - **Explination:** This screenshot shows clearly the funding models and have been clearly labelled as such. This has been strategically placed on top of the Key Information and Tools Section so it can be used as a follow up and a next steps to the funding models as well as encouraging further self-directed research for the user."
 
 **2. Automated Testing:**
 
