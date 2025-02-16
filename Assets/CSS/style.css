@@ -34,6 +34,7 @@
 /* Navigation Menu */
 #navbar {
   background-color: var(--primary-color);
+
 }
 
 #navbar .logo {
@@ -95,6 +96,7 @@ body {
   color: var(--primary-color);
   font-family: var(--primary-font);
   background-color: var(--highlight-lighter);
+  padding-top: 81.77px;
 }
 
 h1,
