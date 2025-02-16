@@ -18,123 +18,122 @@ This project focuses on creating a responsive and user-friendly website with a c
 
 - **As a user,** I want the website to be easy to navigate and understand, even if I'm not familiar with funding terminology. I want clear explanations of acronyms and jargon.
 
-  - **Acceptance Criteria:**
+  **Acceptance Criteria:**
 
-    - The website has a clear and intuitive navigation menu.
-    - A consistent page layout is used throughout the site.
-    - The website uses clear and concise language.
+  - The website has a clear and intuitive navigation menu.
+  - A consistent page layout is used throughout the site.
+  - The website uses clear and concise language.
 
-  - **Tasks:**
-    - Design and implement the navigation menu.
-    - Create a consistent page template.
-    - Review all content for clarity and conciseness.
-    - Conduct usability testing to ensure ease of navigation.
+  **Tasks:**
+  - Design and implement the navigation menu.
+  - Create a consistent page template.
+  - Review all content for clarity and conciseness.
+  - Conduct usability testing to ensure ease of navigation.
 
 #### Feature 2: Mobile Responsiveness
 
 - **As a user on a mobile device,** I want the website to be responsive and display correctly on my smaller screen, ensuring a seamless experience.
 
-  - **Acceptance Criteria:**
+  **Acceptance Criteria:**
 
-    - The website adapts to different screen sizes and orientations.
-    - The layout, images, and text resize appropriately on mobile devices.
-    - The website is usable on touchscreens.
+  - The website adapts to different screen sizes and orientations.
+  - The layout, images, and text resize appropriately on mobile devices.
+  - The website is usable on touchscreens.
 
-  - **Tasks:**
-    - Implement responsive design using CSS media queries and Bootstrap.
-    - Test the website on various mobile devices and screen sizes.
-    - Ensure touch screen compatibility.
+  **Tasks:**
+  - Implement responsive design using CSS media queries and Bootstrap.
+  - Test the website on various mobile devices and screen sizes.
+  - Ensure touch screen compatibility.
 
 #### Feature 3: Information about ESFA
 
 - **As a potential student,** I want to easily find information about the ESFA and its role in funding adult education so that I can understand the overall funding landscape.
 
-  - **Acceptance Criteria:**
+  **Acceptance Criteria:**
 
-    - A dedicated section on the ESFA is present on the website.
-    - The section explains the ESFA's mission and responsibilities related to adult education funding.
-    - The information is presented in clear, concise language, avoiding jargon or providing definitions for technical terms.
-    - Links to the official ESFA website are provided for further reading.
+  - A dedicated section on the ESFA is present on the website.
+  - The section explains the ESFA's mission and responsibilities related to adult education funding.
+  - The information is presented in clear, concise language, avoiding jargon or providing definitions for technical terms.
+  - Links to the official ESFA website are provided for further reading.
 
-  - **Tasks:**
-    - Research and gather information about the ESFA.
-    - Write content for the ESFA section, ensuring clarity and accuracy.
-    - Create the HTML structure for the ESFA section.
-    - Style the section using CSS.
-    - Add links to the official ESFA website.
+  **Tasks:**
+  - Research and gather information about the ESFA.
+  - Write content for the ESFA section, ensuring clarity and accuracy.
+  - Create the HTML structure for the ESFA section.
+  - Style the section using CSS.
+  - Add links to the official ESFA website.
 
 #### Feature 4: Understanding Funding Models
 
 - **As an adult learner,** I want to understand the different funding models available (fully funded, co-funded, Advanced Learner Loan) so that I can assess which options are most relevant to my circumstances.
 
-  - **Acceptance Criteria:**
+  **Acceptance Criteria:**
 
-    - Each funding model (fully funded, co-funded, Advanced Learner Loan) is clearly explained in its own section.
-    - The explanations include eligibility criteria, application processes, and any associated costs.
-    - Examples of courses or situations where each funding model might apply are provided.
-    - The information is accessible and easy to understand, even for users unfamiliar with funding terminology.
+  - Each funding model (fully funded, co-funded, Advanced Learner Loan) is clearly explained in its own section.
+  - The explanations include eligibility criteria, application processes, and any associated costs.
+  - Examples of courses or situations where each funding model might apply are provided.
+  - The information is accessible and easy to understand, even for users unfamiliar with funding terminology.
 
-  - **Tasks:**
-    - Research and document the various funding models.
-    - Create separate sections for each funding model.
-    - Write clear explanations for each model, including eligibility and application information.
-    - Add examples to illustrate each model.
-    - Style the funding model sections.
+  **Tasks:**
+  - Research and document the various funding models.
+  - Create separate sections for each funding model.
+  - Write clear explanations for each model, including eligibility and application information.
+  - Add examples to illustrate each model.
+  - Style the funding model sections.
 
 #### Feature 5: Exploring Career Paths and Funding
 
 - **As someone considering a career change,** I want to explore potential career paths and see what funding opportunities are available for relevant courses so that I can plan my next steps.
 
-  - **Acceptance Criteria:**
+  **Acceptance Criteria:**
 
-    - The website provides links to resources for exploring career paths (e.g., job market information, career advice websites).
-    - Information on how to find funded courses related to specific career areas is included.
-    - The website clearly explains how funding can support career changes.
+  - The website provides links to resources for exploring career paths (e.g., job market information, career advice websites).
+  - Information on how to find funded courses related to specific career areas is included.
+  - The website clearly explains how funding can support career changes.
 
-  - **Tasks:**
+  **Tasks:**
 
-    - Research and identify relevant career exploration resources.
-    - Create a section on career change and funding.
-    - Provide links to career resources.
-    - Explain how to find funded courses related to career changes.
-    - Style the career change section.
+  - Research and identify relevant career exploration resources.
+  - Create a section on career change and funding.
+  - Provide links to career resources.
+  - Explain how to find funded courses related to career changes.
+  - Style the career change section.
 
 #### Feature 6: Clear Website Introduction
 
 - **As a first-time visitor,** I want a clear explanation of what the website offers so I can quickly understand if it's relevant to me.
 
-  - **Acceptance Criteria:**
+  **Acceptance Criteria:**
 
-    - The homepage includes a concise and compelling introduction to the website's purpose.
-    - The introduction clearly states the target audience and the services provided.
-    - Key benefits of using the website are highlighted.
-    - The introduction is visually appealing and easy to read.
+  - The homepage includes a concise and compelling introduction to the website's purpose.
+  - The introduction clearly states the target audience and the services provided.
+  - Key benefits of using the website are highlighted.
+  - The introduction is visually appealing and easy to read.
 
-  - **Tasks:**
-    - Write a clear and concise introductory paragraph for the homepage.
-    - Design the layout of the homepage introduction section.
-    - Choose appropriate visuals (images, icons) to accompany the introduction.
+  **Tasks:**
+  - Write a clear and concise introductory paragraph for the homepage.
+  - Design the layout of the homepage introduction section.
+  - Choose appropriate visuals (images, icons) to accompany the introduction.
 
 #### Feature 7: Eligibility Assessment Referral via Help Page Form
 
 - **As a user who is unsure about my eligibility and seeking assistance,** I want to be able to submit a request for an eligibility assessment via a form on the help page so I can get personalised advice and understand my funding options.
 
-  - **Acceptance Criteria:**
+  **Acceptance Criteria:**
 
-    - A dedicated form for eligibility assessment requests is present on the help page.
-    - The form is clearly labelled and easy to find on the help page.
-    - The form collects the necessary information from the user (e.g., contact details, course interests, employment status, specific questions).
-    - The user receives confirmation (e.g., a thank you message or email) that their request has been submitted successfully.
-    - Information is provided about the typical timeframe for response.
-    - The form is accessible and usable on all devices (desktop, tablet, mobile).
+  - A dedicated form for eligibility assessment requests is present on the help page.
+  - The form is clearly labelled and easy to find on the help page.
+  - The form collects the necessary information from the user (e.g., contact details, course interests, employment status, specific questions).
+  - The user receives confirmation (e.g., a thank you message) that their request has been submitted successfully.
+  - Information is provided about the typical timeframe for response.
+  - The form is accessible and usable on all devices (desktop, tablet, mobile).
 
-  - **Tasks:**
-    - Design and develop the eligibility assessment request form, including appropriate input fields (text, dropdowns, checkboxes).
-    - Determine the specific information required from users for the eligibility assessment.
-    - Implement client-side form validation to ensure data accuracy and completeness before submission.
-    - Create a confirmation message to acknowledge successful submission and provide further information to the user.
-    - Ensure the form and help page content are accessible according to WCAG guidelines (e.g., proper labelling, keyboard navigation, screen reader compatibility).
-    - Thoroughly test the form submission process, including validation and confirmation.
+  **Tasks:**
+  - Design and develop the eligibility assessment request form, including appropriate input fields (text, dropdowns, checkboxes).
+  - Determine the specific information required from users for the eligibility assessment.
+  - Implement client-side form validation to ensure data accuracy and completeness before submission.
+  - Create a confirmation message to acknowledge successful submission and provide further information to the user.
+  - Thoroughly test the form submission process, including validation and confirmation.
 
 ### Design
 
@@ -406,7 +405,7 @@ The FE Funding 4 U website was thoroughly tested across a variety of browsers an
   - **Explanation:** This screenshot shows the completed eligibility assessment form, demonstrating that users can utilize this feature to assess their potential eligibility for funding, directly addressing the user's goal.
 
 - **Mobile Responsiveness:**
-  [Screenshot showing the website on iPhone 12](Assets/README/usf-screenshot-4-1.png) | [Screenshot showing the website on iPad Mini](Assets/README/usf-screenshot-4-2.png)
+  Screenshot showing the website on [iPhone 12](Assets/README/usf-screenshot-4-1.png) | [iPad Mini](Assets/README/usf-screenshot-4-2.png)
   - **User Story Fulfilled:** "As a user, I want the website to be accessible on different devices."
   - **Explanation:** These screenshots illustrate the website's responsiveness across various mobile devices, confirming that users can access and use the website effectively on different screen sizes, fulfilling the accessibility user story.
 
@@ -423,7 +422,7 @@ The FE Funding 4 U website was thoroughly tested across a variety of browsers an
 **2. Automated Testing:**
 
 - **HTML and CSS Validation (W3C):**
-  The website's HTML was validated using the [W3C Markup Validation Service](https://validator.w3.org/). The results for the main page can be found here: [Link to your index.html W3C result]. The website's CSS was validated using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+  The website's HTML was validated using the [W3C Markup Validation Service](https://validator.w3.org/) and the CSS was validated using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
   
   The results for each page can be found below:
   - [Home Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjdpclarke.github.io%2FMilestone-Project-1%2Findex.html)
@@ -439,11 +438,11 @@ The FE Funding 4 U website was thoroughly tested across a variety of browsers an
   W3C CSS Validation has highlighted 433 warnings with the website. 434 relate to the bootstrap CSS and is out of the developers control. The remaining 9 refer to the custom CSS variables that have been declared. The validator acknowledges that CSS variables introduce a level of dynamism that's beyond the scope of its static analysis.
 
 - **Performance, Best Practices, and SEO Testing (Lighthouse):**
-  - Lighthouse, within the Chrome Developer Tools, was used to evaluate the website's performance, best practices, and SEO. This testing provided insights into areas for optimization, such as image compression and page load speed. The results of the Lighthouse testing were used to make targeted improvements to the site's performance and search engine visibility.
-  
+  - Lighthouse, within the Chrome Developer Tools, was used to evaluate the website's performance, best practices, and SEO. This testing provided insights into areas for optimization, such as image compression and page load speed. The results of the Lighthouse testing were used to make targeted improvements to the site's performance and search engine visibility. Whilst the mobile analysis provided a near perfect score, the desktop version proved to be less than ideal.
+
   - **Lighthouse Performance Analysis:**
 
-    A Lighthouse audit was conducted, revealing a strong performance score of 96 and excellent SEO (100). However, the audit highlighted opportunities to improve the Largest Contentful Paint (LCP), which was 5.6 seconds, and optimize image handling. Lighthouse suggested:
+    A Lighthouse audit was conducted, revealing a strong performance score of 93 and excellent Best Practices (100) SEO (100). However, the audit highlighted opportunities to improve the Largest Contentful Paint (LCP), which was 5.6 seconds, and optimize image handling. Lighthouse suggested:
 
     - Serving images in next-gen formats.
     - Properly sizing and efficiently encoding images.
@@ -454,11 +453,11 @@ The FE Funding 4 U website was thoroughly tested across a variety of browsers an
 
   - **Accessibility Considerations:**
 
-    The accessibility score of 78 indicates a contrast ratio issue, specifically with the [mention the specific element or text that has the contrast issue, if possible from the report]. This should be addressed to improve accessibility for all users, especially those with visual impairments. Further investigation into color contrast ratios should be conducted, and alternative color combinations explored to meet WCAG guidelines.
-
+    The accessibility score of 96 indicates a contrast ratio issue, specifically with the body section on the website and the secondary colour in the CSS . This could be addressed to improve accessibility for all users, especially those with visual impairments. Further investigation into color contrast ratios could be conducted, and alternative color combinations explored to meet WCAG guidelines. At this moment in time, there are no plans to resolve this issue as whilst this presents a lower than desired score, the contrast is still sufficient and functional.
+  
   - **Overall:**
 
-    The website performs well, demonstrating strong SEO and a high performance score. However, improvements in LCP and accessibility are recommended. Addressing the identified contrast ratio issue and optimizing image handling would enhance the website's overall quality and user experience. While the site is functional, these improvements would ensure a more inclusive and performant web experience.
+    The website performs well, demonstrating strong SEO and a high performance score. However, improvements in LCP and accessibility are recommended. Addressing the identified contrast ratio issue and optimizing image handling could enhance the website's overall quality and user experience. While the site is functional, these improvements could ensure a more inclusive and performant web experience.
 
 ## 8. Deployment
 
