@@ -429,12 +429,12 @@ The FE Funding 4 U website was thoroughly tested across a variety of browsers an
   - **User Story Fulfilled:** "As an adult learner, I want to understand the different funding models available (fully funded, co-funded, Advanced Learner Loan) so that I can assess which options are most relevant to my circumstances."
   - **Explination:** This screenshot shows the funding models and have been clearly labelled as such. This has been strategically placed on top of the Key Information and Tools Section so it can be used as a follow up and a next steps to the funding models as well as encouraging further self-directed research for the user."
 
-- **Clear Explinations of Funding Models:**
-  [Screenshot showing the Funding Models and Key Information Sections](Assets/README/usf-screenshot-9.png)
+- **Path to New Careers and Funding:**
+  [Screenshot showing the Key Information and Tools Section](Assets/README/usf-screenshot-9.png)
   - **User Story Fulfilled:** "As someone considering a career change, I want to explore potential career paths and see what funding opportunities are available for relevant courses so that I can plan my next steps."
   - **Explination:** This screenshot shows the key information and tools section on the home page. This has been clearly indicated, but also each of the cards have been numbered to highlight a step by step process to a user being able to go from looking at a new career to finding funding for their course and a provider. This also includes a prompt under the header as a call to action."
 
-  - **Attractive Website Introduction:**
+- **Attractive Website Introduction:**
   [Screenshot showing the header of the website and its carousel](Assets/README/usf-screenshot-10.png)
   - **User Story Fulfilled:** "As a first-time visitor, I want a clear explanation of what the website offers so I can quickly understand if it's relevant to me."
   - **Explination:** This screenshot shows the first thing a user sees when they visit the website. It has an attractive informative headear to introduce the website and provide some key headlines about the offer of the ESFA via a carousel (screenshot shows the movement of this between slides)."
