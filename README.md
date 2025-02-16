@@ -359,14 +359,26 @@ By following these guidelines, you can effectively use the FE Funding 4 U websit
   W3C CSS Validation has highlighted 433 warnings with the website. 434 relate to the bootstrap CSS and is out of the developers control. The remaining 9 refer to the custom CSS variables that have been declared. The validator acknowledges that CSS variables introduce a level of dynamism that's beyond the scope of its static analysis.
 
 - **Performance, Best Practices, and SEO Testing (Lighthouse):**
-  - "Lighthouse, within the Chrome Developer Tools, was used to evaluate the website's performance, best practices, and SEO. This testing provided insights into areas for optimization, such as image compression and page load speed. The results of the Lighthouse testing were used to make targeted improvements to the site's performance and search engine visibility."
+  - Lighthouse, within the Chrome Developer Tools, was used to evaluate the website's performance, best practices, and SEO. This testing provided insights into areas for optimization, such as image compression and page load speed. The results of the Lighthouse testing were used to make targeted improvements to the site's performance and search engine visibility.
+  
+  - **Lighthouse Performance Analysis:**
 
-**3. Issue Resolution:**
+    A Lighthouse audit was conducted, revealing a strong performance score of 96 and excellent SEO (100). However, the audit highlighted opportunities to improve the Largest Contentful Paint (LCP), which was 5.6 seconds, and optimize image handling. Lighthouse suggested:
 
-- **Thorough Issue Tracking and Resolution:**
-  - "Throughout the testing process, any identified issues were meticulously documented and systematically resolved. A detailed log of these issues, including their description, steps to reproduce, and the resolution implemented, was maintained. This comprehensive approach ensured that all issues were addressed effectively and efficiently."
-- **Version Control Integration:**
-  - "Version control (Git) was used to track all code changes and issue resolutions. Each bug fix and optimization was committed with a descriptive message, providing a clear audit trail. This approach facilitated collaboration and ensured that all changes could be easily reverted if necessary."
+    - Serving images in next-gen formats.
+    - Properly sizing and efficiently encoding images.
+    - Eliminating render-blocking resources.
+    - Improving caching of static assets.
+
+    These optimizations would enhance performance, particularly by reducing the LCP, and improve user experience.
+
+  - **Accessibility Considerations:**
+
+    The accessibility score of 78 indicates a contrast ratio issue, specifically with the [mention the specific element or text that has the contrast issue, if possible from the report]. This should be addressed to improve accessibility for all users, especially those with visual impairments. Further investigation into color contrast ratios should be conducted, and alternative color combinations explored to meet WCAG guidelines.
+
+  - **Overall:**
+
+    The website performs well, demonstrating strong SEO and a high performance score. However, improvements in LCP and accessibility are recommended. Addressing the identified contrast ratio issue and optimizing image handling would enhance the website's overall quality and user experience. While the site is functional, these improvements would ensure a more inclusive and performant web experience."
 
 ## 8. Deployment
 
