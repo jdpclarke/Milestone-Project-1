@@ -516,7 +516,7 @@ To download a local copy of this repository to your computer, follow these steps
 6. **Clone the Repository:** Type `git clone` and then paste the URL you copied in Step 3. Press Enter.
 
     ```bash
-    git clone [https://github.com/jdpclarke/Milestone-Project-1.git](https://github.com/jdpclarke/Milestone-Project-1.git)
+    git clone https://github.com/jdpclarke/Milestone-Project-1.git
     ```
 
 7. **Local Clone Created:** Your local clone will be created in the specified directory.
