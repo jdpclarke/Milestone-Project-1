@@ -354,6 +354,10 @@ By following these guidelines, you can effectively use the FE Funding 4 U websit
 
   This ensured that the code adhered to web standards and was free from syntax errors. Any identified errors were corrected to improve the site's overall quality and consistency.
 
+  W3C Markup Validation has highlighted a multitude of info messages relating to "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values." These are in place due to the prettier formatter - any attempts to remove them and re-format add the slashes back in to the code.
+
+  W3C CSS Validation has highlighted 433 warnings with the website. 434 relate to the bootstrap CSS and is out of the developers control. The remaining 9 refer to the custom CSS variables that have been declared. The validator acknowledges that CSS variables introduce a level of dynamism that's beyond the scope of its static analysis.
+
 - **Performance, Best Practices, and SEO Testing (Lighthouse):**
   - "Lighthouse, within the Chrome Developer Tools, was used to evaluate the website's performance, best practices, and SEO. This testing provided insights into areas for optimization, such as image compression and page load speed. The results of the Lighthouse testing were used to make targeted improvements to the site's performance and search engine visibility."
 
