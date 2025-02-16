@@ -122,6 +122,7 @@
             <div class="row">
               <!-- Classes to span only half of the width of the container -->
               <div class="col-12 col-md-6 col-xl-6">
+                <!-- Added a css class of bullets to ensure they always align left. Added as a css so all bullets on website can be changed at once -->
                 <ul class="ms-auto m-0 bullets">
                   <li>Flexibility</li>
                   <li>Accessibility</li>
@@ -142,6 +143,8 @@
             training provider or careers advisor to get personalised advice.
           </p>
         </div>
+        <!-- Added a video relevant to the content of the website where it allows the user to interact and control the video -->
+        <!-- video-wrapper and video-container classes used to apply styles and media queries to the video to allow responsiveness across devices -->
         <div class="col-12 col-xl-6 text-center text-xl-start video-wrapper">
           <iframe
             src="https://www.youtube.com/embed/dkZjEXURbkk"
@@ -157,13 +160,14 @@
 
     <!-- Main body of page to hold sections -->
     <main>
-      <!-- Section 1 -->
+      <!-- Section 1 - Providing the specfics about the adult skills fund in a single card -->
       <section id="funded-asf" class="container section">
         <div class="row">
           <div class="col-12 align-items-stretch">
             <div class="card">
               <div class="card-body">
                 <h2 class="display-6 text-center">
+                  <!-- Icon added to visually represent a "fund" -->
                   <i class="fa-solid fa-coins"></i> ESFA Funded Adult Skills
                 </h2>
                 <p class="my-3 card-text">
@@ -239,9 +243,13 @@
             </div>
           </div>
           <div class="col-12">
+            <!-- Accordion added to allow drop downs of big chunks of information sourced from Boostrap 5 -->
             <div class="accordion" id="accordionExample">
+              <!-- Accordion Item for looking at Learning for Level 2 -->
               <div class="accordion-item">
+                <!-- Accordion item header to display title and collapse button-->
                 <h2 class="accordion-header">
+                  <!-- Includes aria-expanded="true" to load expanded, without this it would load collapsed -->
                   <button
                     class="accordion-button collapsed"
                     type="button"
@@ -339,6 +347,7 @@
                   </div>
                 </div>
               </div>
+              <!-- Accordion Item for looking at Learning at Level 3 -->
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button
@@ -425,6 +434,7 @@
                   </div>
                 </div>
               </div>
+              <!-- Accordion Item for looking at L3 FCFJ -->
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button
@@ -517,6 +527,7 @@
                   </div>
                 </div>
               </div>
+              <!-- Accordion Item for looking at English and Maths -->
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button
@@ -632,21 +643,23 @@
         </div>
       </section>
 
-      <!-- Section 2 -->
+      <!-- Section 2 - Information regarding the key areas of eligibility and residency -->
       <section id="eligibility" class="container section">
         <div class="row">
           <div class="col-12 text-center">
             <h2 class="display-6">
+              <!-- Icon relating to Eligibility and Residency (Shield) -->
               <i class="fa-solid fa-shield-halved"></i> Eligibility and
               Residency
             </h2>
           </div>
           <div class="col-12 col-md-6 col-xl-4 d-flex align-items-stretch">
+            <!-- Card for Earnings Threshold -->
             <div class="card">
               <img
                 src="Assets/Images/earnings.jpg"
                 class="img-fluid"
-                alt="A building branded with the ESFA logo"
+                alt="Laptop, documents, calculator, glasses and coffee on a desk with a hand holding a pen"
               />
               <div class="card-body">
                 <h3 class="card-title">Earnings Threshold</h3>
@@ -666,11 +679,12 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-xl-4 d-flex align-items-stretch">
+            <!-- Card for Employment Threshold -->
             <div class="card">
               <img
                 src="Assets/Images/employment.jpg"
                 class="img-fluid"
-                alt="A building branded with the ESFA logo"
+                alt="Two people engaged in discussion with a document on the desk"
               />
               <div class="card-body">
                 <h3 class="card-title">Employment Status</h3>
@@ -690,6 +704,7 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-xl-4 d-flex align-items-stretch">
+            <!-- Card for Residency -->
             <div class="card">
               <img
                 src="Assets/Images/residency.jpg"
