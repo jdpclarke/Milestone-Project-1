@@ -50,13 +50,14 @@
 
   <!-- Class on body works in tangent with class on footer to ensure this stays at the bottom of the page-->
   <body class="d-flex flex-column min-vh-100">
-    <!-- Navigation Bar/Menu -->
+    <!-- Navigation Bar/Menu sourced from Bootstrap 5 -->
     <nav
       id="navbar"
       class="navbar navbar-expand-lg fixed-top"
       data-bs-theme="dark"
     >
       <div class="container">
+        <!-- Added a logo with a link that takes the user back to the home page when clicked -->
         <a id="nav-logo" class="navbar-brand" href="index.html">
           <img
             src="Assets/Images/logo.png"
@@ -64,6 +65,7 @@
             class="logo"
           />
         </a>
+        <!-- A button that displays on smaller devices to toggles the nav menu items when clicked -->
         <button
           class="navbar-toggler"
           type="button"
@@ -73,8 +75,10 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
+          <!-- Icon for the nav menu toggle button -->
           <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- Nav bar links, enclosed in the div with navbar-collapse attribute so this appears and disappears when the button is clicked -->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -91,21 +95,24 @@
             </li>
             <li class="nav-item">
               <!-- Link so the page scrolls down to the footer on its relevant page. This will be different for each page.-->
-              <a class="nav-link" href="index.html#more-help">Contact Us</a> 
+              <a class="nav-link" href="index.html#more-help">Contact Us</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Header -->
+    <!-- Header to provide introductory information and key headlines to users on their visit -->
     <header id="header" class="container section">
       <div class="row">
+        <!-- Classes to span only half of the width of the container -->
         <div class="col-12 col-xl-6 text-center text-xl-start">
+          <!-- Used class display-4 and display-6 to make the elements element more prominent -->
           <h1 class="display-4 text-center">FE Funding 4 U</h1>
           <p class="lead display-6 sub-heading text-center">
             Start your education journey!
           </p>
+          <!-- my-3 class used to apply a margin with balanced spacing for layout purposes-->
           <p class="my-3">
             Welcome to FE Funding 4 U (FF4U)! The one-stop shop for easy
             guidance on funding available for adults in the Further Education
@@ -126,13 +133,16 @@
             be entitled to. The education world is your oyster!
           </p>
         </div>
+        <!-- Classes to span only half of the width of the container -->
         <div class="col-12 col-xl-6 text-center text-xl-start">
+          <!-- Autoplaying carousel with slides with the functionality to allow the user to flip between the slides -->
           <div
             id="carouselExampleAutoplaying"
             class="carousel slide"
             data-bs-ride="carousel"
           >
             <div class="carousel-inner">
+              <!-- tagged with active class to make this the first item on the carousel -->
               <div class="carousel-item active">
                 <img
                   src="Assets/Images/index-carousel-1.svg"
@@ -182,24 +192,28 @@
                 />
               </div>
             </div>
+            <!-- Carousel Previous Slide Button -->
             <button
               class="carousel-control-prev"
               type="button"
               data-bs-target="#carouselExampleAutoplaying"
               data-bs-slide="prev"
             >
+              <!-- Icon for carousel Previous Slide Button -->
               <span
                 class="carousel-control-prev-icon"
                 aria-hidden="true"
               ></span>
               <span class="visually-hidden">Previous</span>
             </button>
+            <!-- Carousel Next Slide Button -->
             <button
               class="carousel-control-next"
               type="button"
               data-bs-target="#carouselExampleAutoplaying"
               data-bs-slide="next"
             >
+              <!-- Icon for carousel Next Slide Button -->
               <span
                 class="carousel-control-next-icon"
                 aria-hidden="true"
@@ -213,19 +227,24 @@
 
     <!-- Main body of page to hold sections -->
     <main>
-      <!-- Section 1 -->
+      <!-- Section 1 - introduces the ESFA and what it offers. Provides top level information about the adult skills fund-->
       <section id="esfa-offer" class="container section">
         <div class="row">
           <div class="col-12 text-center">
             <h2 class="display-6">
+              <!-- Icon showing a hand shake to visually show an "Offer" -->
               <i class="fa-solid fa-handshake-simple"></i> The ESFA and its
               Offer
             </h2>
           </div>
           <div class="col-12">
+            <!-- Accordion added to allow drop downs of big chunks of information sourced from Boostrap 5 -->
             <div class="accordion" id="accordionExample">
+              <!-- Accordion Item for Introducing the ESFA -->
               <div class="accordion-item">
+                <!-- Accordion item header to display title and collapse button-->
                 <h2 class="accordion-header">
+                  <!-- Includes aria-expanded="true" to load expanded, without this it would load collapsed -->
                   <button
                     class="accordion-button"
                     type="button"
@@ -243,6 +262,7 @@
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
+                    <!-- div inside the accordion body so image can be shown alongside the image -->
                     <div class="row">
                       <div class="col-12 col-xl-8">
                         <strong
@@ -282,7 +302,9 @@
                   </div>
                 </div>
               </div>
+              <!-- Accordion Item for the adult skills fund overview -->
               <div class="accordion-item">
+                <!-- Accordion item header to display title and collapse button-->
                 <h2 class="accordion-header">
                   <button
                     class="accordion-button collapsed"
@@ -301,6 +323,7 @@
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
+                    <!-- div inside the accordion body so image can be shown alongside the image -->
                     <div class="row">
                       <div class="col-12 col-xl-4 text-center text-xl-start">
                         <img
@@ -348,15 +371,17 @@
         </div>
       </section>
 
-      <!-- Section 2 -->
+      <!-- Section 2 - Smaller section to allow key chunks of information about the funding models. This will pair nicely with the following section.-->
       <section id="funding-models" class="container section">
         <div class="row">
           <div class="col-12 text-center">
             <h2 class="display-6">
+              <!-- Icon showing dice to visually show an "Opportunity" or chance -->
               <i class="fa-solid fa-dice"></i> Funding Models and Opportunities
             </h2>
           </div>
           <div class="col-12 col-md-6 col-xl-4 d-flex align-items-stretch">
+            <!-- Fully-Funded card -->
             <div class="card">
               <div class="card-body">
                 <h3 class="card-title text-center">Fully Funded</h3>
@@ -365,6 +390,7 @@
                   of the cost of your course. You don't have to pay anything.
                   This is often the case for:
                 </p>
+                <!-- Added a css class of bullets to ensure they always align left. Added as a css so all bullets on website can be changed at once -->
                 <ul class="ms-auto m-0 bullets">
                   <li>English and Maths</li>
                   <li>Free Courses for Jobs (FCFJ)</li>
@@ -374,6 +400,7 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-xl-4 d-flex align-items-stretch">
+            <!-- Co-funded card -->
             <div class="card">
               <div class="card-body">
                 <h3 class="card-title text-center">Co-Funded</h3>
@@ -389,6 +416,7 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-xl-4 d-flex align-items-stretch">
+            <!-- Advanced Learner Loan Card -->
             <div class="card">
               <div class="card-body">
                 <h3 class="card-title text-center">Advanced Learner Loan</h3>
@@ -406,21 +434,23 @@
         </div>
       </section>
 
-      <!-- Section 3 -->
+      <!-- Section 3 - Adds key information and tools in order of how they should be used together. -->
       <section id="key-information" class="container section">
         <div class="row">
           <div class="col-12 text-center">
             <h2 class="display-6">
+              <!-- Icon showing a wrench to visually show a "Tool" -->
               <i class="fa-solid fa-screwdriver-wrench"></i> Key Information and
               Tools
             </h2>
           </div>
           <div class="col-12 col-md-6 col-xl-3 d-flex align-items-stretch">
+            <!-- Adult Skills Fund card with Sample image-->
             <div class="card">
               <img
                 src="Assets/Images/esfa.jpg"
                 class="img-fluid"
-                alt="A building branded with the ESFA logo"
+                alt="A woman sat writing on a clipboard"
               />
               <div class="card-body">
                 <h3 class="card-title">1. Adult Skills Fund</h3>
@@ -429,8 +459,10 @@
                   the Funding and Performance Management Rules 2024 to 2025
                 </p>
               </div>
+              <!-- Link to ASF page -->
               <div class="card-footer">
                 <p class="mb-0">
+                  <!-- inline-link class used to match the links to the design of the website, also provides a hover interaction. -->
                   <a
                     class="inline-link"
                     target="blank"
@@ -442,6 +474,7 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-xl-3 d-flex align-items-stretch">
+            <!-- New Careers card with Sample image-->
             <div class="card">
               <img
                 src="Assets/Images/career-search.jpg"
@@ -456,6 +489,7 @@
                   daily tasks involved.
                 </p>
               </div>
+              <!-- Link to the National Careers Service for new careers -->
               <div class="card-footer">
                 <p class="mb-0">
                   <a
@@ -469,6 +503,7 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-xl-3 d-flex align-items-stretch">
+            <!-- Find a Course with Sample image-->
             <div class="card">
               <img
                 src="Assets/Images/ncs.webp"
@@ -483,6 +518,7 @@
                 </p>
               </div>
               <div class="card-footer">
+                <!-- Link to the National Careers Service for finding a course -->
                 <p class="mb-0">
                   <a
                     class="inline-link"
@@ -495,6 +531,7 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-xl-3 d-flex align-items-stretch">
+            <!-- Find a Learning Aim to Explore Funding with Sample image-->
             <div class="card">
               <img
                 src="Assets/Images/funding-grants.jpg"
@@ -509,6 +546,7 @@
                   a learning aim here.
                 </p>
               </div>
+              <!-- Link to the Find a Learning Aim Page for funding information -->
               <div class="card-footer">
                 <p class="mb-0">
                   <a
@@ -525,12 +563,14 @@
       </section>
     </main>
 
-    <!-- Footer -->
+    <!-- Footer showing disclaimer/copyright, contact details, social links and a map with location -->
     <!-- Class added to ensure this remains at the bottom of the page -->
     <footer id="more-help" class="mt-auto">
       <div class="container section">
         <div class="row">
+          <!-- Use of classes to split row in to 3 columns -->
           <div class="col-12 col-md-6 col-xl-4 footer-column">
+            <!-- Dislaimer about the use of the website-->
             <h4><u>Disclaimer and Copyright</u></h4>
             <p>
               Adult funding is available, but the specific benefits you can
@@ -542,22 +582,28 @@
               situation.
             </p>
             <p>
+              <!-- Copyright icon -->
               <i class="fa-regular fa-copyright"></i>
               Copyright FE Funding 4 U 2025
             </p>
           </div>
+          <!-- Column with contact details and social links -->
           <div class="col-12 col-md-4 col-xl-4 footer-column">
             <h4><u>Contact Us</u></h4>
             <p>
+              <!-- Phone number with a phone icon -->
               <i class="fa-solid fa-phone"></i> 012 345 6789<br />
+              <!-- Email with a paper plane icon -->
               <i class="fa-regular fa-paper-plane"></i> info@ff4u.co.uk
             </p>
+            <!-- Address with a location icon -->
             <address>
               <i class="fa-solid fa-location-dot"></i
               ><strong>FE Funding 4 U</strong><br />
               123 Funding Street<br />
               Fundington, FE12 34U
             </address>
+            <!-- Three social media links with a class similar to inline-links to provide a reaction on hover -->
             <div class="sm-links mt-4">
               <a
                 href="https://www.instagram.com"
@@ -582,6 +628,7 @@
               ></a>
             </div>
           </div>
+          <!-- A container with a map to the location of the business -->
           <div class="col-12 col-md-6 col-xl-4 footer-column">
             <h4><u>Our Location</u></h4>
             <div class="map-container">
