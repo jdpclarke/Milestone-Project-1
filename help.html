@@ -161,10 +161,14 @@
       <section id="assessment-form" class="container section">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10">
+            <!-- Icon showing a pen for "filling in a form" -->
             <h3><i class="fa-solid fa-pen"></i> Eligiblity Assessment Form</h3>
             <h6>Fields marked with * are mandatory fields</h6>
+            <!-- On button click, submit data and direct to the form success page -->
             <form action="form-success.html" method="GET">
               <div class="row">
+                <!-- classes used to constrain the size of the form fields -->
+                <!-- Forname - Mandatory -->
                 <div class="col-12 col-lg-6 mb-3">
                   <label for="name" class="form-label">Name*</label>
                   <input
@@ -175,6 +179,7 @@
                     required
                   />
                 </div>
+                <!-- Surname - Mandatory -->
                 <div class="col-12 col-lg-6 mb-3">
                   <label for="surname" class="form-label">Surname*</label>
                   <input
@@ -185,6 +190,7 @@
                     required
                   />
                 </div>
+                <!-- Email - Mandatory - Type: Email -->
                 <div class="col-12 col-lg-6 mb-3">
                   <label for="email" class="form-label">Email*</label>
                   <input
@@ -195,6 +201,7 @@
                     required
                   />
                 </div>
+                <!-- Phone - Optional - Type: Number -->
                 <div class="col-12 col-lg-6 mb-3">
                   <label for="phone" class="form-label">Phone</label>
                   <input
@@ -204,6 +211,7 @@
                     type="number"
                   />
                 </div>
+                <!-- Interested Course - Mandatory -->
                 <div class="col-12 mb-3">
                   <label for="course" class="form-label"
                     >Interested Course*
@@ -216,6 +224,7 @@
                     required
                   />
                 </div>
+                <!-- Current Annual Income - Mandatory - Drop-down select -->
                 <div class="col-12 mb-3">
                   <label for="earnings" class="form-label"
                     >Current Annual Income*</label
@@ -236,6 +245,7 @@
                     <option value="prefer-not-to-say">Prefer not to say</option>
                   </select>
                 </div>
+                <!-- Current Employment Status - Mandatory - Drop-down select -->
                 <div class="col-12 mb-3">
                   <label for="employment" class="form-label"
                     >Current Employment Status*</label
@@ -278,8 +288,16 @@
                     <option value="unemployed-seeking-work">
                       Unemployed and Seeking Work (No Benefits)
                     </option>
+                    <option value="full-time-employed">
+                      Full-Time Employment
+                    </option>
+                    <option value="part-time-employed">
+                      Part-Time Employment
+                    </option>
+                    <option value="self-employed">Self-Employed</option>
                   </select>
                 </div>
+                <!-- Message - Mandatory - 10 Rows -->
                 <div class="col-12 mb-3">
                   <label for="message" class="form-label">Message*</label>
                   <textarea
@@ -291,7 +309,7 @@
                   ></textarea>
                 </div>
               </div>
-
+              <!-- Request Assessment Button -->
               <button
                 id="request-assessment"
                 type="submit"
