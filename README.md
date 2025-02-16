@@ -2,7 +2,7 @@
 
 **A website providing easy guidance on funding available for adults in the Further Education sector in England.**
 
-![Responsive Mockup](https://github.com/jdpclarke/Milestone-Project-1/blob/4dfdab093832778f9249d7a68e2451fffa38a138/Assets/README/Mockup.png)
+![Responsive Mockup](Assets/README/Mockup.png)
 
 ## 1. Overview
 
@@ -142,7 +142,7 @@ This project focuses on creating a responsive and user-friendly website with a c
 
   When people hear the word funding, the most common association is simply money, as funding is the provision of financial resources. As such, the colour palette for this project has been sampled from a £20 note as sourced from the [Bank of England Specimen Image](https://www.bankofengland.co.uk/banknotes/polymer-20-pound-note). The below colour palette was generated from the Front of the Queen Elizabeth II note using [IMAGECOLORPICKER.com](https://imagecolorpicker.com/)
 
-  ![Colour palette for this project](https://github.com/jdpclarke/Milestone-Project-1/blob/a2c8f37c5d7a062c29b87db03c4eda8f13876bf4/Assets/README/Colour%20Palette.png)
+  ![Colour palette for this project](Assets/README/Colour%20Palette.png)
 
 - **Typography**
 
@@ -166,10 +166,10 @@ All images used on the website are optimised for web performance to ensure fast 
 
 ### Wireframes
 
-- [Home Page Wireframe](https://github.com/jdpclarke/Milestone-Project-1/blob/de28f98c3308f85c8a001774322d94c57b7853c2/Assets/README/wireframe-home.png)
-- [Your Guide Page Wireframe](https://github.com/jdpclarke/Milestone-Project-1/blob/de28f98c3308f85c8a001774322d94c57b7853c2/Assets/README/wireframe-your-guide.png)
-- [Help Page Wireframe](https://github.com/jdpclarke/Milestone-Project-1/blob/de28f98c3308f85c8a001774322d94c57b7853c2/Assets/README/wireframe-help.png)
-- [Form Success Page Wireframe](https://github.com/jdpclarke/Milestone-Project-1/blob/de28f98c3308f85c8a001774322d94c57b7853c2/Assets/README/wireframe-form-success.png)
+- [Home Page Wireframe](Assets/README/wireframe-home.png)
+- [Your Guide Page Wireframe](Assets/README/wireframe-your-guide.png)
+- [Help Page Wireframe](Assets/README/wireframe-help.png)
+- [Form Success Page Wireframe](Assets/README/wireframe-form-success.png)
 
 ## 3. Features
 
@@ -331,14 +331,94 @@ By following these guidelines, you can effectively use the FE Funding 4 U websit
 
 **1. Comprehensive Manual Testing:**
 
-- **Rigorous Cross-Browser Compatibility:**
-  - The website was manually tested across multiple browsers, including Chrome, Firefox, Safari, and Edge, to ensure consistent rendering and functionality. Particular attention was paid to the display of the video element, carousel, and accordion components, ensuring they functioned correctly and displayed as intended across all platforms. Any browser-specific inconsistencies were identified and resolved through targeted CSS adjustments.
-- **Device Responsiveness:**
-  - Rigorous device testing was conducted on a range of screen sizes, from small mobile devices (e.g., iPhone SE) to large desktop monitors (e.g., 27-inch displays). This included testing on both physical devices and using browser developer tools to simulate various screen resolutions. This testing ensured the site's responsive design adapted seamlessly to different viewports, maintaining a consistent user experience.
-- **Interactive Element Testing:**
-  - The functionality of the interactive elements, such as the accordion and carousel, was thoroughly tested. This included verifying that the accordion panels expanded and collapsed correctly, and that the carousel images transitioned smoothly. Edge cases, such as rapid clicking or swiping, were also tested to ensure robustness.
-- **Form Testing:**
-  - If forms are present in the site, explain how you tested the forms. For example: 'Form validation was tested by submitting forms with missing fields, incorrect data types, and valid data. This ensured that the forms functioned as expected and provided appropriate feedback to the user.
+The FE Funding 4 U website was thoroughly tested across a variety of browsers and devices to ensure functionality, responsiveness, and accessibility.
+
+**Browsers and Devices Tested:**
+
+- **Chrome (Version 132.0.6834.197 (Official Build) (64-bit)):** Used as the primary testing browser.
+- **Chrome Developer Tools:** Employed to simulate various screen sizes and mobile devices, including:
+  - Common mobile device resolutions (e.g., iPhone, Android).
+  - Tablet screen sizes.
+  - Various desktop viewport widths.
+
+**Testing Conducted:**
+
+- **Navigation Testing:**
+  - Verified that all navigation links in the header and footer function correctly, directing users to the appropriate pages.
+  - Tested the responsive navigation menu on mobile devices, ensuring it collapses and expands as expected.
+  - Tested the "Contact Us" link in the navigation menu, to ensure that this scrolls to the footer on the relevant page.
+- **Content Testing:**
+  - Confirmed that all text content is accurate, legible, and free of errors.
+  - Verified that the accordion components expand and collapse correctly, displaying the appropriate information.
+  - Ensured that the card components display information clearly and consistently.
+- **Form Testing (Eligibility Assessment):**
+  - Tested the eligibility assessment form on the "Help" page with various input combinations, including valid and invalid data.
+  - Verified that all required fields are correctly marked and enforced.
+  - Confirmed that the form submits data successfully and redirects to the `form-success.html` page.
+  - Tested the select boxes to ensure each option was selectable.
+  - Tested the message box to ensure multi line input was available.
+- **Responsiveness Testing:**
+  - Tested the website's layout and functionality on different screen sizes using browser developer tools.
+  - Verified that the website adapts correctly to various viewport widths, ensuring content is displayed optimally.
+  - Tested the footer to ensure it remained at the bottom of the page on all viewports.
+- **Accessibility Testing:**
+  - Verified that all images include descriptive `alt` text by severing the link to the images folder temporarily.
+  - Tested keyboard navigation, ensuring that all interactive elements can be accessed and operated using the keyboard.
+  - Confirmed that the color contrast between text and background sufficiently meets accessibility guidelines.
+- **Embedded Media Testing:**
+  - Tested the embedded YouTube video on the "Your Guide" page, ensuring it loads and plays correctly.
+  - Tested the embedded Google Map in the footer, verifying that it loads and displays the location accurately as well as being interactive.
+- **Link Testing:**
+  - Tested all internal links to ensure that they linked to the correct pages.|
+  - Tested all external links to ensure that they opened in a new tab.
+
+**Bug Evaluation and Fixes:**
+
+- **Bug 1: Navigation Menu Overlap (Mobile)**
+  - Description: On smaller mobile screens, the navigation menu overlapped the header content.
+  - Fix: Implemented a CSS media query to adjust the navigation menu's position on mobile devices, preventing overlap.
+- **Bug 2: Form Input Field Active State**
+  - Description: Some of the form input fields did not show an active state when selected.
+  - Fix: Added CSS to the form input fields to show an active state when selected.
+- **Bug 3: Footer not sticking to bottom on small content pages.**
+  - Description: On pages with little content the footer was not sticking to the bottom of the viewport.
+  - Fix: Added `d-flex flex-column min-vh-100` to the body, and `mt-auto` to the footer.
+
+**Unfixed Bugs:**
+
+- At the present time, all found bugs have been fixed.
+
+**Screenshots and User Story Fulfillment:**
+
+- **Homepage:**
+  [Screenshot of the homepage, highlighting key information sections](Assets/README/usf-screenshot-1.png)
+  - **User Story Fulfilled:** "As a user, I want to easily find information about available FE funding."
+  - **Explanation:** This screenshot demonstrates that the homepage provides immediate access to key funding information through clear sections and navigation, fulfilling the user's need to easily find relevant details.
+
+- **Your Guide Page:**
+  [Screenshot of the "Your Guide" page, showing accordion functionality](Assets/README/usf-screenshot-2.png)
+  - **User Story Fulfilled:** "As a user, I want to understand the eligibility criteria for different funding options."
+  - **Explanation:** This screenshot showcases the "Your Guide" page, particularly the accordion components, which provide detailed explanations of eligibility criteria and funding options, meeting the user's need for clear understanding.
+
+- **Eligibility Form:**
+  [Screenshot of the completed eligibility assessment form](Assets/README/usf-screenshot-3.png)
+  - **User Story Fulfilled:** "As a user, I want to be able to assess my eligibility for funding."
+  - **Explanation:** This screenshot shows the completed eligibility assessment form, demonstrating that users can utilize this feature to assess their potential eligibility for funding, directly addressing the user's goal.
+
+- **Mobile Responsiveness:**
+  [Screenshot showing the website on iPhone 12](Assets/README/usf-screenshot-4-1.png) | [Screenshot showing the website on iPad Mini](Assets/README/usf-screenshot-4-2.png)
+  - **User Story Fulfilled:** "As a user, I want the website to be accessible on different devices."
+  - **Explanation:** These screenshots illustrate the website's responsiveness across various mobile devices, confirming that users can access and use the website effectively on different screen sizes, fulfilling the accessibility user story.
+
+- **Contact Information:**
+  [Screenshot of the footer with contact details and Google Map](Assets/README/usf-screenshot-5.png)
+  - **User Story Fulfilled:** "As a user, I want to be able to contact the organisation for further assistance."
+  - **Explanation:** This screenshot displays the footer's contact information and Google Map, showcasing that users can easily find and use the provided contact details to seek further assistance, fulfilling the contact user story.
+
+- **Keyboard Navigation:**
+  [Screenshot showing keyboard focus on a navigation link](Assets/README/usf-screenshot-6.png)
+  - **User Story Fulfilled:** "As a user, I want the website to be accessible on different devices."
+  - **Explanation:** This screenshot demonstrates that the website is navigable using keyboard controls, ensuring accessibility for users who rely on keyboard input, contributing to the broader accessibility user story.
 
 **2. Automated Testing:**
 
@@ -370,7 +450,7 @@ By following these guidelines, you can effectively use the FE Funding 4 U websit
     - Eliminating render-blocking resources.
     - Improving caching of static assets.
 
-    These optimizations would enhance performance, particularly by reducing the LCP, and improve user experience.
+    These optimizations would enhance performance, particularly by reducing the LCP, and improve user experience. However, upon investigation, this was relating to a lot of the Bootstrap CSS which is outside of the developers control.
 
   - **Accessibility Considerations:**
 
