@@ -241,7 +241,7 @@ To view and run the FE Funding 4 U (FF4U) website locally, follow these steps:
     - Execute the following command:
 
         ```bash
-        git clone [https://github.com/jdpclarke/Milestone-Project-1.git](https://github.com/jdpclarke/Milestone-Project-1.git)
+        git clone https://github.com/jdpclarke/Milestone-Project-1.git
         ```
 
 2. **Navigate to the Project Directory:**
