@@ -461,8 +461,8 @@ The FE Funding 4 U website was thoroughly tested across a variety of browsers an
 
 - **Performance, Best Practices, and SEO Testing (Lighthouse):**
   - Lighthouse, within the Chrome Developer Tools, was used to evaluate the website's performance, best practices, and SEO. This testing provided insights into areas for optimization, such as image compression and page load speed. The results of the Lighthouse testing were used to make targeted improvements to the site's performance and search engine visibility. Whilst the mobile analysis provided a near perfect score, the desktop version proved to be less than ideal.
-
-  - [Lighthouse Testing Results](assets/readme/lighthouse-results.pdf)
+  
+  [Lighthouse Testing Results](assets/readme/lighthouse-results.pdf)
 
   - **Lighthouse Performance Analysis:**
 
