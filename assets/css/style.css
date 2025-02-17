@@ -1,0 +1,347 @@
+/* Fonts Import from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* CSS Variables */
+:root {
+  --primary-font: "Rubrik", sans-serif;
+  --secondary-font: "Righteous", sans-serif;
+  --primary-color: #423e59; /* Gunpowder */
+  --secondary-color: #8997a6; /* Regent Gray */
+  --highlight-dark: #6d4e75; /* Saltbox */
+  --highlight-darker: #cfaf7f; /* Tan */
+  --highlight-light: #b099b1; /* Amethyst Smoke */
+  --highlight-lighter: #e0dbdc; /* Bonjour */
+  --accordian-item: #b0b2b8; /* Bombay */
+}
+
+/* Button Styles */
+/* Styles the buttons to match the design of the website and applies a hover interaction */
+.ff4u-button {
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-weight: bold;
+  background-color: var(--secondary-color);
+  border-width: 4px;
+  margin-top: 2rem;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover interaction */
+.ff4u-button:hover {
+  background-color: var(--highlight-dark);
+  color: var(--highlight-lighter);
+}
+
+/* Navigation Menu */
+/* Various styles to be used as part of the nav menu */
+#navbar {
+  background-color: var(--primary-color);
+}
+
+/* Manages the logo size on the nav menu */
+#navbar .logo {
+  width: 150px;
+}
+
+/* Manages the font size of the text on the nav menu */
+#navbar a {
+  font-size: 1.2rem;
+}
+
+/* Header */
+/* Applies secondary font to all elements in the header with the lead class */
+#header .lead {
+  font-family: var(--secondary-font);
+}
+
+/* ESFA Offer */
+/* Applies secondary font to all elements in the esfa-offer section with the lead class */
+#esfa-offer .lead {
+  font-family: var(--secondary-font);
+}
+
+/* Funding Models */
+/* Applies a margin to the bottom of all cards in the funding-models section */
+#funding-models .card {
+  margin-bottom: 1.5rem;
+}
+
+/* Key Information */
+/* Applies a margin to the bottom of all cards in the key-information section */
+#key-information .card {
+  margin-bottom: 1.5rem;
+}
+
+/* Your Guide Header */
+/* Styles to keep videos contained to its container and sized correctly */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 30%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-wrapper iframe.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ESFA Funded Adult Skills */
+/* Applies a margin to the bottom of all cards in the funded-asf section */
+#funded-asf .card {
+  margin-bottom: 3rem;
+}
+
+/* Applies an additional margin to the sides of all card bodies in the funded-asf section */
+#funded-asf .card-body div {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Residency and Eligibility */
+/* Applies a margin to the bottom of all cards in the eligibility section */
+#eligibility .card {
+  margin-bottom: 1.5rem;
+}
+
+/* Help */
+/* Applies a bold font-weight to the assessment form section */
+#assessment-form {
+  font-weight: bold;
+}
+
+/* Form-Success Page */
+/* Applies colour, margin and center alignment to the paragraph elements on the form-success page */
+#form-success p {
+  color: var(--primary-color);
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* Basic and Universal Styles across all pages*/
+body {
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  background-color: var(--highlight-lighter);
+  padding-top: 81.77px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+}
+
+h4 {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+}
+
+h2,
+h6 {
+  margin-bottom: 2rem;
+}
+
+p {
+  text-align: justify;
+}
+
+.bullets {
+  text-align: left;
+}
+
+.sub-heading {
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+}
+
+.section {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* Styles for links and to make them reactive */
+.inline-link {
+  font-family: var(--primary-font);
+  font-weight: bolder;
+  color: var(--highlight-dark);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.inline-link:hover {
+  color: var(--highlight-light);
+}
+
+/* Bootstrap Accordian Styles */
+/* Overriden the syles from Boostrap to match color palette */
+.accordion-button:not(.collapsed) {
+  background-color: var(--accordian-item);
+  color: var(--primary-color);
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  /* Style when the accordion is focused */
+  border-color: #ced4da;
+  box-shadow: none;
+  color: #212529;
+}
+
+.accordion-body {
+  text-align: justify;
+}
+
+.accordion-image {
+  margin-bottom: 1rem;
+}
+
+.accordion {
+  margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.carousel {
+  margin-bottom: 2rem;
+}
+
+/* Footer for all pages */
+#more-help {
+  font-family: var(--primary-font);
+  background-color: var(--primary-color);
+}
+
+#more-help h4 {
+  margin-bottom: 1rem;
+}
+
+/* Social Media Icons in footer */
+.sm-links {
+  text-align: center;
+}
+
+#more-help i {
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  margin-right: 15px;
+}
+
+#more-help .sm-links i {
+  color: var(--highlight-lighter);
+  font-size: 1.9rem;
+  transition: color 0.3s ease-in-out;
+}
+
+#more-help .sm-links i:hover {
+  color: var(--highlight-dark);
+}
+
+/* Adds a margin to the bottom of all columns in the footer */
+#more-help .footer-column {
+  margin-bottom: 2rem;
+}
+
+#more-help h4,
+#more-help p,
+#more-help address {
+  color: var(--highlight-lighter);
+  text-align: center;
+}
+
+/* Styles to keep the map contained to its container and sized correctly */
+.map-container {
+  position: relative;
+  padding-bottom: 50%; /* 16:9 aspect ratio - adjust if needed */
+  height: 0;
+  overflow: hidden;
+  display: flex; /* Enable Flexbox on the container */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Media Queries */
+/* Medium devices (tables, 768px+) */
+@media screen and (min-width: 320px) {
+  /* Styles to assist with making videos a reasonable size for the device */
+  .video-wrapper {
+    padding-bottom: 60%;
+    height: auto;
+  }
+}
+
+/* Medium devices (tables, 768px+) */
+@media screen and (min-width: 768px) {
+  /* Styles to assist with making all cards the same height */
+  #key-information .card-body {
+    min-height: 180px;
+  }
+  #funding-models .card-body {
+    min-height: 180px;
+  }
+  /* Styles to assist with making videos a reasonable size for the device */
+  .video-wrapper {
+    padding-bottom: 60%;
+    height: auto;
+  }
+}
+
+/* Large devices (small laptops, 992px+) */
+@media screen and (min-width: 992px) {
+  /* Styles to assist with making all cards the same height */
+  #key-information .card-body {
+    min-height: auto;
+  }
+  #funding-models .card-body {
+    min-height: auto;
+  }
+  /* Styles to assist with making videos a reasonable size for the device */
+  .video-wrapper {
+    padding-bottom: 60%;
+    height: auto;
+  }
+}
+
+/* Xl devices (large desktops, 1200px+) */
+@media screen and (min-width: 1200px) {
+  /* Styles to assist with making all cards the same height */
+  #key-information .card-body {
+    min-height: 220px;
+  }
+  #funding-models .card-body {
+    min-height: 220px;
+  }
+  /* Styles to assist with making videos a reasonable size for the device */
+  .video-wrapper {
+    padding-bottom: 30%;
+    height: auto;
+  }
+}
+
+/* XXl devices (larger desktops, 1400px+) */
+@media screen and (min-width: 1400px) {
+  /* Styles to assist with making all cards the same height */
+  #key-information .card-body {
+    min-height: 195px;
+  }
+  #funding-models .card-body {
+    min-height: 195px;
+  }
+  /* Styles to assist with making videos a reasonable size for the device */
+  .video-wrapper {
+    padding-bottom: 30%;
+    height: auto;
+  }
+}
