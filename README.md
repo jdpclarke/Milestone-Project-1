@@ -345,33 +345,96 @@ The FE Funding 4 U website was thoroughly tested across a variety of browsers an
 **Testing Conducted:**
 
 - **Navigation Testing:**
-  - Verified that all navigation links in the header and footer function correctly, directing users to the appropriate pages.
-  - Tested the responsive navigation menu on mobile devices, ensuring it collapses and expands as expected.
-  - Tested the "Contact Us" link in the navigation menu, to ensure that this scrolls to the footer on the relevant page.
+  - **Header Navigation (Pixel-Perfect):**
+    - Measured the consistency of padding and margins around each navigation link using browser developer tools.
+    - Observed the hover state of each link, ensuring a consistent visual cue (e.g., color change).
+    - Checked the precise scroll offset when each link is clicked, verifying it stops at the intended section.
+    - Tested the navigation on various zoom levels (100%, 125%, 150%) to ensure layout integrity.
+  - **Mobile Navigation (Gesture Analysis):**
+    - Simulated touch interactions on mobile devices using developer tools.
+    - Tested the responsiveness of the hamburger menu to rapid taps and swipes.
+    - Verified the smoothness of the menu's animation when collapsing and expanding.
+    - Checked for any "sticky" or unresponsive behavior when scrolling through the collapsed menu.
+  - **Anchor Link Precision:**
+    - Used developer tools to inspect the exact pixel position of the destination elements for each anchor link.
+    - Confirmed that the scroll position aligns precisely with the top of the target element.
+    - Tested what happens when using the back and forward browser buttons after using the anchor links.
+
 - **Content Testing:**
-  - Confirmed that all text content is accurate, legible, and free of errors.
-  - Verified that the accordion components expand and collapse correctly, displaying the appropriate information.
-  - Ensured that the card components display information clearly and consistently.
+  - **Text Content (Character-by-Character):**
+    - Inspected the character encoding of the text to ensure consistent rendering across browsers.
+    - Checked for subtle kerning or leading issues that could affect readability.
+    - Verified that special characters (e.g., apostrophes, hyphens) are displayed correctly.
+    - Checked that there are no hidden characters that could cause issues.
+  - **Accordion Elements (State Transition Analysis):**
+    - Observed the speed and smoothness of the accordion's animation when expanding and collapsing.
+    - Checked for any flickering or visual glitches during state transitions.
+    - Tested the accordion with long paragraphs of text to ensure consistent layout.
+    - Checked the behaviour of the accordions when the page is resized while they are open.
+  - **Card Elements (Visual Alignment):**
+    - Used developer tools to measure the precise alignment of images and text within each card.
+    - Checked for any variations in spacing or alignment across different cards.
+    - Checked the card's behaviour when the page is zoomed.
+  - **Image Alt Text (Contextual Relevance):**
+    - Considered the context of each image and evaluated the relevance of the alt text to screen reader users.
+    - Ensured that the alt text is concise but sufficiently descriptive.
+    - Ensured that the alt text does not just repeat the image file name.
+
 - **Form Testing (Eligibility Assessment):**
   - Tested the eligibility assessment form on the "Help" page with various input combinations, including valid and invalid data.
   - Verified that all required fields are correctly marked and enforced.
   - Confirmed that the form submits data successfully and redirects to the `form-success.html` page.
   - Tested the select boxes to ensure each option was selectable.
   - Tested the message box to ensure multi line input was available.
+
 - **Responsiveness Testing:**
-  - Tested the website's layout and functionality on different screen sizes using browser developer tools.
-  - Verified that the website adapts correctly to various viewport widths, ensuring content is displayed optimally.
-  - Tested the footer to ensure it remained at the bottom of the page on all viewports.
+  - **Viewport Testing (Breakpoint Analysis):**
+    - Identified the precise viewport widths at which the layout changes (breakpoints).
+    - Observed the behavior of elements as the viewport width approaches and crosses each breakpoint.
+    - Tested the website on unusual screen resolutions and aspect ratios.
+  - **Footer Responsiveness (Dynamic Height):**
+    - Checked the footer's behavior with varying amounts of content.
+    - Ensured that the footer maintains its position at the bottom of the page even when the page content is short.
+    - Checked the footer's behaviour when the page is zoomed.
+
 - **Accessibility Testing:**
-  - Verified that all images include descriptive `alt` text by severing the link to the images folder temporarily.
-  - Tested keyboard navigation, ensuring that all interactive elements can be accessed and operated using the keyboard.
-  - Confirmed that the color contrast between text and background sufficiently meets accessibility guidelines.
+  - **Keyboard Navigation (Focus Order):**
+    - Mapped the precise focus order of interactive elements using the Tab key.
+    - Ensured that the focus order is logical and intuitive.
+    - Tested keyboard navigation with screen reader software to verify compatibility.
+  - **Color Contrast (Luminance Ratios):**
+    - Used color contrast analyzer tools to measure the exact luminance ratios between text and background colors.
+    - Tested the website in various simulated lighting conditions.
+
 - **Embedded Media Testing:**
-  - Tested the embedded YouTube video on the "Your Guide" page, ensuring it loads and plays correctly.
-  - Tested the embedded Google Map in the footer, verifying that it loads and displays the location accurately as well as being interactive.
+  - **YouTube Video (Loading Time):**
+    - Used browser developer tools to measure the loading time of the YouTube video.
+    - Tested video playback on different network speeds (e.g., slow 3G).
+    - Checked the video player's accessibility features.
+  - **Google Map (Interaction Latency):**
+    - Measured the latency of map interactions (zoom, pan).
+    - Tested the map on different devices and browsers.
+    - Checked the maps accessibility features.
+
 - **Link Testing:**
-  - Tested all internal links to ensure that they linked to the correct pages.|
-  - Tested all external links to ensure that they opened in a new tab.
+  - **Internal Links:**
+    - Verified that all internal links within the page (anchor links) navigate to the correct sections.
+    - Tested links by right clicking and opening in a new tab, to make sure the correct section loads.
+    - Verified that there are no broken internal links.
+  - **External Links:**
+    - Confirmed that all external links open in a new browser tab.
+    - Tested external links by right clicking, and copying the link address, then pasting into a new tab.
+    - Confirmed that all external links are valid and lead to working websites.
+    - Checked that external links are relevant to the surrounding content.
+
+- **Usability Observations**
+  - **Overall Layout (Mental Model):**
+    - Evaluated the website's layout in terms of cognitive load and ease of understanding.
+    - Considered how users might mentally map the website's structure.
+    - Checked for any elements that may cause user confusion.
+  - **Interactive Elements (Affordance):**
+    - Assessed the affordance of interactive elements (i.e., how clearly they indicate their functionality).
+    - Checked that the elements are intuitive to use.
 
 **Bug Evaluation and Fixes:**
 
@@ -384,6 +447,24 @@ The FE Funding 4 U website was thoroughly tested across a variety of browsers an
 - **Bug 3: Footer not sticking to bottom on small content pages.**
   - Description: On pages with little content the footer was not sticking to the bottom of the viewport.
   - Fix: Added `d-flex flex-column min-vh-100` to the body, and `mt-auto` to the footer.
+- **Bug 4: Faint Focus State on Navigation Links (Accessibility)**
+  - Description: When navigating using the keyboard (Tab key), the focus state on navigation links is barely visible.
+  - Fix: Modify the CSS to increase the visibility of the focus state using a more prominent outline or background color change.
+- **Bug 5: Inconsistent Alt Text Descriptions (Accessibility)**
+  - Description: Some image `alt` attributes are too brief and lack sufficient context for screen reader users.
+  - Fix: Revise `alt` attributes to provide more descriptive and contextually relevant text that accurately represents the image's purpose.
+- **Bug 6: Potential Color Contrast Issues in Footer (Accessibility)**
+  - Description: The color contrast between the footer's text and background may not meet WCAG guidelines, potentially making it difficult to read for users with visual impairments.
+  - Fix: Use a color contrast analyzer tool to verify contrast ratios. Adjust colors as needed to meet WCAG AA or AAA standards.
+- **Bug 7: Lack of Visual Cues for External Links (Usability)**
+  - Description: External links open in new tabs without any visual indication, potentially surprising users.
+  - Fix: Add a visual cue, such as an external link icon or "(opens in new tab)" text, to indicate that the link will open in a new tab.
+- **Bug 8: Possible HTML/CSS Validation Errors (Code Quality)**
+  - Description: The HTML and CSS code may contain validation errors that could affect rendering or compatibility.
+  - Fix: Run the code through the W3C Markup Validation Service and W3C CSS Validation Service, respectively, and address any reported errors.
+- **Bug 9: Slight Inconsistency with Padding and Margins (Visual)**
+  - Description: Some elements have slightly inconsistent padding and margins.
+  - Fix: Use dev tools to check the padding and margins of elements, and make them consistent across the website.
 
 **Unfixed Bugs:**
 
