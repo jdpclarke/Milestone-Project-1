@@ -540,11 +540,9 @@ The FE Funding 4 U website was thoroughly tested across a variety of browsers an
 
   W3C CSS Validation has highlighted 433 warnings with the website. 434 relate to the bootstrap CSS and is out of the developers control. The remaining 9 refer to the custom CSS variables that have been declared. The validator acknowledges that CSS variables introduce a level of dynamism that's beyond the scope of its static analysis.
 
-- **Performance, Best Practices, and SEO Testing (Lighthouse):**
+- **Performance, Best Practices, and SEO Testing (Lighthouse):** [Lighthouse Testing Results](assets/readme/lighthouse-results.pdf)
   - Lighthouse, within the Chrome Developer Tools, was used to evaluate the website's performance, best practices, and SEO. This testing provided insights into areas for optimization, such as image compression and page load speed. The results of the Lighthouse testing were used to make targeted improvements to the site's performance and search engine visibility. Whilst the mobile analysis provided a near perfect score, the desktop version proved to be less than ideal.
   
-  [Lighthouse Testing Results](assets/readme/lighthouse-results.pdf)
-
   - **Lighthouse Performance Analysis:**
 
     A Lighthouse audit was conducted, revealing a strong performance score of 95 and excellent Best Practices (100) SEO (100). However, the audit highlighted opportunities to improve the Largest Contentful Paint (LCP), which was 5.6 seconds, and optimize image handling. Lighthouse suggested:
