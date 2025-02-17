@@ -2,7 +2,7 @@
 
 **A website providing easy guidance on funding available for adults in the Further Education sector in England.**
 
-![Responsive Mockup](Assets/README/Mockup.png)
+![Responsive Mockup](assets/readme/mockup.png)
 
 ## 1. Overview
 
@@ -143,7 +143,7 @@ This project focuses on creating a responsive and user-friendly website with a c
 
   When people hear the word funding, the most common association is simply money, as funding is the provision of financial resources. As such, the colour palette for this project has been sampled from a £20 note as sourced from the [Bank of England Specimen Image](https://www.bankofengland.co.uk/banknotes/polymer-20-pound-note). The below colour palette was generated from the Front of the Queen Elizabeth II note using [IMAGECOLORPICKER.com](https://imagecolorpicker.com/)
 
-  ![Colour palette for this project](Assets/README/Colour%20Palette.png)
+  ![Colour palette for this project](assets/readme/colour-palette.png)
 
 - **Typography**
 
@@ -155,22 +155,22 @@ This project focuses on creating a responsive and user-friendly website with a c
 
 This website utilises a variety of images to enhance the user experience and convey information effectively. The images serve several purposes:
 
-- **Branding:** The logo (`Assets/Images/logo.png`) is used in the navigation bar to reinforce brand identity and provide a consistent visual element throughout the site.
+- **Branding:** The logo (`assets/images/logo.png`) is used in the navigation bar to reinforce brand identity and provide a consistent visual element throughout the site.
 
-- **Homepage Carousel:** The carousel on the homepage (`Assets/Images/index-carousel-1.svg`, `Assets/Images/index-carousel-2.svg`, `Assets/Images/index-carousel-3.svg`, `Assets/Images/guide-carousel-2.svg`, `Assets/Images/guide-carousel-3.svg`, `Assets/Images/guide-carousel-4.svg`, `Assets/Images/guide-carousel-5.svg`) features rotating images with accompanying text to highlight key information, promotions, or calls to action. These images are designed to be visually appealing and informative.
+- **Homepage Carousel:** The carousel on the homepage (`assets/images/index-carousel-1.svg`, `assets/images/index-carousel-2.svg`, `assets/images/index-carousel-3.svg`, `assets/images/guide-carousel-2.svg`, `assets/images/guide-carousel-3.svg`, `assets/images/guide-carousel-4.svg`, `assets/images/guide-carousel-5.svg`) features rotating images with accompanying text to highlight key information, promotions, or calls to action. These images are designed to be visually appealing and informative.
 
-- **Informational Images:** Images are incorporated within the accordion sections (`Assets/Images/esfa-2.jpg`, `Assets/Images/asf.jpg`) and card components (`Assets/Images/esfa.jpg`, `Assets/Images/career-search.jpg`, `Assets/Images/ncs.webp`, `Assets/Images/funding-grants.jpg`) to illustrate concepts, break up text, and make the content more engaging. These images are carefully selected to be relevant to the surrounding information.
+- **Informational Images:** Images are incorporated within the accordion sections (`assets/images/esfa-2.jpg`, `assets/images/asf.jpg`) and card components (`assets/images/esfa.jpg`, `assets/images/career-search.jpg`, `assets/images/ncs.webp`, `assets/images/funding-grants.jpg`) to illustrate concepts, break up text, and make the content more engaging. These images are carefully selected to be relevant to the surrounding information.
 
-- **Favicon:** A favicon (`Assets/favicon/apple-touch-icon.png`, `Assets/favicon/favicon-32x32.png`, `Assets/favicon/favicon-16x16.png`) is included to provide a visual cue for the website in browser tabs and bookmarks. This also provides a first look in to the brand of the website.
+- **Favicon:** A favicon (`assets/favicon/apple-touch-icon.png`, `assets/favicon/favicon-32x32.png`, `assets/favicon/favicon-16x16.png`) is included to provide a visual cue for the website in browser tabs and bookmarks. This also provides a first look in to the brand of the website.
 
 All images used on the website are optimised for web performance to ensure fast loading times and a smooth user experience. Alternative text (alt text) is provided for all images to ensure accessibility for users with visual impairments and to improve SEO. The alt text descriptions are concise and descriptive, accurately conveying the content and purpose of each image. For example, the carousel images have descriptive alt text explaining the message conveyed in each image. Similarly, the images in the accordion and card sections have alt text that describes the subject of the image.
 
 ### Wireframes
 
-- [Home Page Wireframe](Assets/README/wireframe-home.png)
-- [Your Guide Page Wireframe](Assets/README/wireframe-your-guide.png)
-- [Help Page Wireframe](Assets/README/wireframe-help.png)
-- [Form Success Page Wireframe](Assets/README/wireframe-form-success.png)
+- [Home Page Wireframe](assets/readme/wireframe-home.png)
+- [Your Guide Page Wireframe](assets/readme/wireframe-your-guide.png)
+- [Help Page Wireframe](assets/readme/wireframe-help.png)
+- [Form Success Page Wireframe](assets/readme/wireframe-form-success.png)
 
 ## 3. Features
 
@@ -392,52 +392,52 @@ The FE Funding 4 U website was thoroughly tested across a variety of browsers an
 **Screenshots and User Story Fulfillment:**
 
 - **Homepage:**
-  [Screenshot of the homepage, highlighting key information sections](Assets/README/usf-screenshot-1.png)
+  [Screenshot of the homepage, highlighting key information sections](assets/readme/usf-screenshot-1.png)
   - **User Story Fulfilled:** "As a user, I want to easily find information about available FE funding."
   - **Explanation:** This screenshot demonstrates that the homepage provides immediate access to key funding information through clear sections and navigation, fulfilling the user's need to easily find relevant details.
 
 - **Your Guide Page:**
-  [Screenshot of the "Your Guide" page, showing accordion functionality](Assets/README/usf-screenshot-2.png)
+  [Screenshot of the "Your Guide" page, showing accordion functionality](assets/readme/usf-screenshot-2.png)
   - **User Story Fulfilled:** "As a user, I want to understand the eligibility criteria for different funding options."
   - **Explanation:** This screenshot showcases the "Your Guide" page, particularly the accordion components, which provide detailed explanations of eligibility criteria and funding options, meeting the user's need for clear understanding.
 
 - **Eligibility Form:**
-  [Screenshot of the completed eligibility assessment form](Assets/README/usf-screenshot-3.png)
+  [Screenshot of the completed eligibility assessment form](assets/readme/usf-screenshot-3.png)
   - **User Story Fulfilled:** "As a user, I want to be able to assess my eligibility for funding."
   - **Explanation:** This screenshot shows the completed eligibility assessment form, demonstrating that users can utilize this feature to assess their potential eligibility for funding, directly addressing the user's goal.
 
 - **Mobile Responsiveness:**
-  Screenshots showing the website on [iPhone 12](Assets/README/usf-screenshot-4-1.png) | [iPad Mini](Assets/README/usf-screenshot-4-2.png)
+  Screenshots showing the website on [iPhone 12](assets/readme/usf-screenshot-4-1.png) | [iPad Mini](assets/readme/usf-screenshot-4-2.png)
   - **User Story Fulfilled:** "As a user, I want the website to be accessible on different devices."
   - **Explanation:** These screenshots illustrate the website's responsiveness across various mobile devices, confirming that users can access and use the website effectively on different screen sizes, fulfilling the accessibility user story.
 
 - **Contact Information:**
-  [Screenshot of the footer with contact details and Google Map](Assets/README/usf-screenshot-5.png)
+  [Screenshot of the footer with contact details and Google Map](assets/readme/usf-screenshot-5.png)
   - **User Story Fulfilled:** "As a user, I want to be able to contact the organisation for further assistance."
   - **Explanation:** This screenshot displays the footer's contact information and Google Map, showcasing that users can easily find and use the provided contact details to seek further assistance, fulfilling the contact user story.
 
 - **Keyboard Navigation:**
-  [Screenshot showing keyboard focus on a navigation link](Assets/README/usf-screenshot-6.png)
+  [Screenshot showing keyboard focus on a navigation link](assets/readme/usf-screenshot-6.png)
   - **User Story Fulfilled:** "As a user, I want the website to be accessible on different devices."
   - **Explanation:** This screenshot demonstrates that the website is navigable using keyboard controls, ensuring accessibility for users who rely on keyboard input, contributing to the broader accessibility user story.
 
 - **Intuitive Navigation and Consistent Layout:**
-  [Screenshot showing navigation menu and section headers](Assets/README/usf-screenshot-7.png)
+  [Screenshot showing navigation menu and section headers](assets/readme/usf-screenshot-7.png)
   - **User Story Fulfilled:** "I want the website to be easy to navigate and understand, even if I'm not familiar with funding terminology"
   - **Explination:** This screenshot displays the clear and intuitive navigation menu as well as the concise section headers that provide a consistent layout to the website for those that aren't familiar with FE Funding. This also provides a means of quickly navigating the website via clear indicators for return users."
 
 - **Clear Explinations of Funding Models:**
-  [Screenshot showing the Funding Models and Key Information Sections](Assets/README/usf-screenshot-8.png)
+  [Screenshot showing the Funding Models and Key Information Sections](assets/readme/usf-screenshot-8.png)
   - **User Story Fulfilled:** "As an adult learner, I want to understand the different funding models available (fully funded, co-funded, Advanced Learner Loan) so that I can assess which options are most relevant to my circumstances."
   - **Explination:** This screenshot shows the funding models and have been clearly labelled as such. This has been strategically placed on top of the Key Information and Tools Section so it can be used as a follow up and a next steps to the funding models as well as encouraging further self-directed research for the user."
 
 - **Path to New Careers and Funding:**
-  [Screenshot showing the Key Information and Tools Section](Assets/README/usf-screenshot-9.png)
+  [Screenshot showing the Key Information and Tools Section](assets/readme/usf-screenshot-9.png)
   - **User Story Fulfilled:** "As someone considering a career change, I want to explore potential career paths and see what funding opportunities are available for relevant courses so that I can plan my next steps."
   - **Explination:** This screenshot shows the key information and tools section on the home page. This has been clearly indicated, but also each of the cards have been numbered to highlight a step by step process to a user being able to go from looking at a new career to finding funding for their course and a provider. This also includes a prompt under the header as a call to action."
 
 - **Attractive Website Introduction:**
-  [Screenshot showing the header of the website and its carousel](Assets/README/usf-screenshot-10.png)
+  [Screenshot showing the header of the website and its carousel](assets/readme/usf-screenshot-10.png)
   - **User Story Fulfilled:** "As a first-time visitor, I want a clear explanation of what the website offers so I can quickly understand if it's relevant to me."
   - **Explination:** This screenshot shows the first thing a user sees when they visit the website. It has an attractive informative headear to introduce the website and provide some key headlines about the offer of the ESFA via a carousel (screenshot shows the movement of this between slides)."
 
@@ -464,7 +464,7 @@ The FE Funding 4 U website was thoroughly tested across a variety of browsers an
 
   - **Lighthouse Performance Analysis:**
 
-    A Lighthouse audit was conducted, revealing a strong performance score of 93 and excellent Best Practices (100) SEO (100). However, the audit highlighted opportunities to improve the Largest Contentful Paint (LCP), which was 5.6 seconds, and optimize image handling. Lighthouse suggested:
+    A Lighthouse audit was conducted, revealing a strong performance score of 95 and excellent Best Practices (100) SEO (100). However, the audit highlighted opportunities to improve the Largest Contentful Paint (LCP), which was 5.6 seconds, and optimize image handling. Lighthouse suggested:
 
     - Serving images in next-gen formats.
     - Properly sizing and efficiently encoding images.
@@ -541,7 +541,7 @@ This project, FE Funding 4 U (FF4U), was developed using a combination of public
 - **Google Maps API (Embedded):** The Google Maps API was used to embed an interactive map of the organization's location within the footer, improving user experience by providing visual location information.
 - **YouTube (Embedded):** Informational videos were embedded using YouTube's iframe API, providing users with supplementary visual content.
 
-**Code and Assets:**
+**Code and assets:**
 
 - **Bootstrap 5 Documentation:** The Bootstrap 5 documentation was extensively referenced for code examples, component usage, and responsive design guidelines.
 - **Favicon Generation:** Favicon images were generated using online favicon generators, ensuring compatibility across different browsers and devices.
